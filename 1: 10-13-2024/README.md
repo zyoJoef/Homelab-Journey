@@ -2,7 +2,7 @@
 
 <p>During my first year as a Computer Science student, I was still clueless about these homelab, network, and other IT/Network related terminologies. But that particular year is where I managed to snag this LG 15N365 Laptop that has the following specification:</p>
 
-<ol>
+<ul>
   <li>Model : 15N365</li>
   <li>CPU : Intel Core i5-6200U 2.30GHz</li>
   <li>LCD : 15.6" (1920 x 1080 Full HD)</li>
@@ -15,7 +15,7 @@
   <li>Wi-Fi & Bluetooth</li>
   <li>LAN</li>
   <li>I/O Ports : VGA, Headset port, 3 USB ports, Lan, SD Card Slot and HDMI</li>
-</ol>
+</ul>
 
 <a href="https://m.blog.naver.com/it_tube/222698966903">Naver Blog about it's Disk and RAM</a>
 
