@@ -40,5 +40,7 @@ Well it sat on the shelf again being unused, which I'm now just using for experi
 
 <h2>Note</h2>
 <p>
-On the later part I've actually attached that secondary 2TB HDD back, but this time with an external USB Disk Enclosure, since there's no more space left inside for another one, and so that I could do a RAID 1 Setup again. 
+    On the later part I've actually attached that secondary 2TB HDD back, but this time with an external USB Disk Enclosure, since there's no more space left inside for another one, and so that I could do a RAID 1 Setup again. 
+<br>
+    I went for this Mini PC instead of buying a proper System Unit or computer, since they're really quiet, power efficient, and doesn't take up a lot of footprint as compared to there more capable, expandable typical computer or rack-mount server counter type.
 </p>
