@@ -9,6 +9,7 @@ Here's some Youtube Video Tutorial that I based/reference on:
   <a href="https://youtu.be/URks20NnGRw">Setup a CHEAP Homelab Linux Server With CasaOS | Britec09</a>
 <br>
   <a href="https://youtu.be/w44CypRO5l4">Home Servers Have NEVER Been This Easy: CasaOS + ZimaBoard | Hardware Haven</a>
+
 <br>
 
 <h2>What made you choose Bebian & CasaOS compared to say a Proxmox?</h2>
@@ -26,6 +27,8 @@ I heard good things about Proxmox such as being able to run multiple vm and cont
   <li>Tailscale</li>
 </ul>
 
+<br>
+
 <h2>What's new to the hardware?</h2>
 <p>
   The upgrades are the following:
@@ -34,4 +37,11 @@ I heard good things about Proxmox such as being able to run multiple vm and cont
     <li>Changed the DVD Drive to a 2.5" Disk Caddy</li>
     <li>Added 2x Toshiba 2.5" 1TB SATA HDD (for storage, with the other one placed on the Disk Caddy)</li>
   </ul>
+</p>
+
+<br>
+
+<h2>Note</h2>
+<p>
+This is still running off our ISP router's Wi-Fi connection and I hadn't tried wired connection yet
 </p>
