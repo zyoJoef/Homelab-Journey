@@ -1,6 +1,6 @@
 <h1><b>05/06/2026</b></h1>
 
-<p>After months of usage with my LG Laptop server I decided to finally let go of it's role and give it to a new machine, hence why I bought this mini pc. It originally came with a 500GB HDD, but thankfully it supports M.2 SATA SSD so all I had to do is transfer the SSD from the laptop and it worked, which I then second the primary 2TB HDD inside (since it fit both 1 M.2 and SATA drive), everything went flawless as if nothing has changed (well except probably for it's IP and MAC Address).
+<p>After months of usage with my LG Laptop server I decided to finally let go of it's role and give it to a new machine that I got for a good price, hence why I bought this mini pc. It originally came with a 500GB HDD, but thankfully it supports M.2 SATA SSD so all I had to do is transfer the SSD from the laptop and it worked, which I then second the primary 2TB HDD inside (since it fit both 1 M.2 and SATA drive), everything went flawless as if nothing has changed (well except probably for it's IP and MAC Address).
 :</p>
 
 <ul>
@@ -44,4 +44,7 @@ Well it sat on the shelf again being unused, which I'm now just using for experi
 <h2>Note</h2>
 <p>
     On the later part I've actually attached that secondary 2TB HDD back, but this time with an external USB Disk Enclosure, since there's no more space left inside for another one, and so that I could do a RAID 1 Setup again. 
+<br>
+<br>
+   Also, before I did try to run Ollama local LLM on my LG Laptop server, but then it really showed it's hardware limitation and the bare minimum needed in order to run one. Hence why I didn't bother installing Local LLM, especially with the current price of RAM and Disk nowadays.
 </p>
