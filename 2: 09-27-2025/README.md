@@ -10,7 +10,7 @@ Here's some Youtube Video Tutorial that I based/reference on:
 <br>
   <a href="https://youtu.be/w44CypRO5l4">Home Servers Have NEVER Been This Easy: CasaOS + ZimaBoard | Hardware Haven</a>
 
-<h2>What made you choose Bebian & CasaOS compared to say a Proxmox?</h2>
+<h2>What made you choose Debian & CasaOS compared to say a Proxmox?</h2>
 <p>
 I heard good things about Proxmox such as being able to run multiple vm and containers, but since I'm still a novice at these kind of stuff, I decided to go for the rather easy route. Which is going for Debian & CasaOS, since it's a straightforward and user-friendly combination without getting too overwhelmed with the settings, though obviously lacks further settings or options such as being able to do RAID and of alike.
 </p>
