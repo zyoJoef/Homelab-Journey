@@ -39,6 +39,7 @@ Well it sat on the shelf again being unused, which I'm now just using for experi
   <li>Memos</li>
   <li>Crafty</li>
   <li>Portainer</li>
+  <li>OpenSSH</li>
 </ul>
 
 <h2>Note</h2>
