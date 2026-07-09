@@ -32,3 +32,9 @@ I brought it in the first place as a spare laptop, since I don't want to frequen
 To reiterate, the laptop was barely even used ever since I kept using that other laptop, so for the mean time that LG laptop served as backup for my files & media, where I had to copy & paste everything into a 'Shared Folder' within it (since it is Windows 11 Pro) that is accesible with my main laptop via 'Network Drive' (that has Windows 11 Home).
 </p>
 
+<br>
+<h2>Note</h2>
+<p>
+This is still running off our ISP router's Wi-Fi connection and I hadn't tried wired connection yet
+</p>
+
