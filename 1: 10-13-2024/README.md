@@ -23,7 +23,7 @@
 
 <h2>Why did I brought it in the first place?</h2>
 <p>
-I brought it in the first place as a spare laptop, since I don't want to frequently remove and put back my main laptop (at that time which was an Acer Aspire 3 15.6.") But however, it didn't happened, because the Korean guy who selled it had listed a Lenovo X250 12.5" laptop at some point that captivated me to bought it as well, and my original plan for that LG laptop was set aside and it went sitting on the shelf for around a year or so.
+I brought it in the first place as a spare laptop, since I don't want to frequently remove and put back my main laptop whenever I went to class (at that time the Acer Aspire 3 15.6." laptop was serving as my main, since I want to have a separate device for academic and personal) But however, it didn't happened, because the Korean guy who selled it had listed a Lenovo X250 12.5" laptop at some point that captivated me to bought it as well, and my original plan for that LG laptop was set aside and it went sitting on the shelf for around a year or so.
 </p>
 
 <br>
