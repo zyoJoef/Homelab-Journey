@@ -13,7 +13,6 @@
   <li>DVD/CD-rom Drive</li>
   <li>Webcam</li>
   <li>Wi-Fi & Bluetooth</li>
-  <li>LAN</li>
   <li>I/O Ports : VGA, Headset port, 3 USB ports, Lan, SD Card Slot and HDMI</li>
 </ul>
 
