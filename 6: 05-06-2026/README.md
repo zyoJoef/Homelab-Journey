@@ -1,6 +1,6 @@
 <h1><b>05/06/2026</b></h1>
 
-<p>After months of usage with my LG Laptop server I decided to finally let go of it's role and give it to a new machine that I got for a good price, hence why I bought this mini pc. It originally came with a 500GB HDD, but thankfully it supports M.2 SATA SSD so all I had to do is transfer the SSD from the laptop and it worked, which I then second the primary 2TB HDD inside (since it fit both 1 M.2 and SATA drive), everything went flawless as if nothing has changed (well except probably for it's IP and MAC Address).
+<p>After months of usage with my LG Laptop server I decided to finally let go of it's role and give it to a new machine that I got for a good price, hence why I bought this mini pc. It originally came with a 500GB HDD, but thankfully it supports M.2 SATA SSD so all I had to do is transfer the SSD from the laptop and it worked, which I then second the primary 2TB HDD inside (since it fit both 1 M.2 and SATA drive), everything went flawless as if nothing has changed (well except probably for it's IP and MAC Address). Also, the red LED light indicator on the front doesn't appear to work when I received it (the seller have two of these but due to budget constraint I can only buy one and let the other one go).
 :</p>
 
 <ul>
