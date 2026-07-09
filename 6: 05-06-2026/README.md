@@ -17,7 +17,10 @@
 
 <h2>Why did I brought it in the first place?</h2>
 <p>
-After noticing that it gets really hot easily, I was concern about using it from extended periods of time, where I also read somewhere that using a laptop for homelab isn't advisable too since they're not primarily designed to run 24/7 plus you get the risk of the spicy pillow too! Alongside it's still is running the same Debian + CasaOS setup, just enclosed on a new machine that is more compact (since the screen, keyboard, touchpad, and battery are out of the equation). 
+      After noticing that it gets really hot easily, I was concern about using it from extended periods of time, where I also read somewhere that using a laptop for homelab isn't advisable too since they're not primarily designed to run 24/7 plus you get the risk of the spicy pillow too! Alongside it's still is running the same Debian + CasaOS setup, just enclosed on a new machine that is more compact (since the screen, keyboard, touchpad, and battery are out of the equation). 
+<br>
+<br>
+      I went for this Mini PC instead of buying a proper System Unit or computer, since they're really quiet, power efficient, and somewhat easier to maintain as compared to their more capable or expandable tower computer or rack-mount server.
 </p>
 
 <h2>What happened to the laptop?</h2>
@@ -41,6 +44,4 @@ Well it sat on the shelf again being unused, which I'm now just using for experi
 <h2>Note</h2>
 <p>
     On the later part I've actually attached that secondary 2TB HDD back, but this time with an external USB Disk Enclosure, since there's no more space left inside for another one, and so that I could do a RAID 1 Setup again. 
-<br>
-    I went for this Mini PC instead of buying a proper System Unit or computer, since they're really quiet, power efficient, and doesn't take up a lot of footprint as compared to there more capable, expandable typical computer or rack-mount server counter type.
 </p>
