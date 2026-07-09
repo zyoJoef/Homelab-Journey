@@ -26,3 +26,12 @@ I heard good things about Proxmox such as being able to run multiple vm and cont
   <li>Tailscale</li>
 </ul>
 
+<h2>What's new to the hardware?</h2>
+<p>
+  The upgrades are the following:
+  <ul>
+    <li>Swapped the Micron 2.5" 256GB SATA SSD to a Tammuz 2280 M.2 256GB SATA SSD (for OS)</li>
+    <li>Changed the DVD Drive to a 2.5" Disk Caddy</li>
+    <li>Added 2x Toshiba 2.5" 1TB SATA HDD (for storage, with the other one placed on the Disk Caddy)</li>
+  </ul>
+</p>
