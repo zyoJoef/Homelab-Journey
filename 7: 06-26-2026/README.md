@@ -20,4 +20,7 @@ Here's some Youtube Video Tutorial that I based/reference on:
 <br>
 <br>
     Furthermore, since this gave a new IP address to each of the devices connencted to it, I had to reconfigure everything again such as their IP & MAC Address, Static DNS and others.
+<br>
+<br>
+    Also, don't mind the old TP-Link ER605 V2 router in the pictures.
 </p>
