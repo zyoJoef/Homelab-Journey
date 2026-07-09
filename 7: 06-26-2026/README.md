@@ -8,28 +8,16 @@ Here's some Youtube Video Tutorial that I based/reference on:
 
 <h2>What are the other reason on why I bought it?</h2>
 <p>
-Since the HP managed switch I got together with the old router takes up at least two power outlet and gets warm a lot (just the HP switch) and I feel concerned and worry about leaving them on while I'm not around in the house (since our house does get really warm or hot too). With the Mikrotik Cloud Router Switch I was able to free up one power source while it still remained warm (though not as hot as the other switch). Though funny enough since I'm a novice to these RouterOs configuration stuffs and of alike, I had to troubleshoot it immediately after screwing things up (such as corrupting the OS, it's IP address showing as 0.0.0.0) which made me rely on 
-</p>
-
-<h2>What are the services that you are running into it?</h2>
-<p>The following are the services that I'm running:</p>
-<ul>
-  <li>Jellyfin</li>
-  <li>Swing Music</li>
-  <li>Tailscale</li>
-</ul>
-
-<h2>What's new to the hardware?</h2>
-<p>
-  The upgrades are the following:
-  <ul>
-    <li>Swapped the Micron 2.5" 256GB SATA SSD to a Tammuz 2280 M.2 256GB SATA SSD (for OS)</li>
-    <li>Changed the DVD Drive to a 2.5" Disk Caddy</li>
-    <li>Added 2x Toshiba 2.5" 1TB SATA HDD (for storage, with the other one placed on the Disk Caddy)</li>
-  </ul>
+    Since the HP managed switch I got together with the old router takes up at least two power outlet and gets warm a lot (just the HP switch) and I feel concerned and worry about leaving them on while I'm not around in the house (since our house does get really warm or hot too). With the Mikrotik Cloud Router Switch I was able to free up one power source while it still remained warm (though not as hot as the other switch). 
+<br>
+<br>  
+    Though funny enough since I'm a novice to these RouterOs configuration stuffs, I had to troubleshoot it immediately after screwing some settings up (such as accidentally corrupting the OS, it's IP address showing as 0.0.0.0) which made me rely on Netinstall and some help of AI (namely Google Gemini and ChatGPT) to get it back to it's working state. 
 </p>
 
 <h2>Note</h2>
 <p>
-This is still running off our ISP router's Wi-Fi connection and I hadn't tried wired connection yet
+    I didn't knew that it is still a router, so I might probably just add a dedicated router again in the future, but for the mean time this should do. 
+<br>
+<br>
+    Furthermore, since this gave a new IP address to each of the devices connencted to it, I had to reconfigure everything again such as their IP & MAC Address, Static DNS and others.
 </p>
