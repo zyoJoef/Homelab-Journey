@@ -9,6 +9,8 @@ Here's some Youtube Video Tutorial that I based/reference on:
   <a href="https://youtu.be/URks20NnGRw">Setup a CHEAP Homelab Linux Server With CasaOS | Britec09</a>
 <br>
   <a href="https://youtu.be/w44CypRO5l4">Home Servers Have NEVER Been This Easy: CasaOS + ZimaBoard | Hardware Haven</a>
+<br>
+  <a href="https://youtu.be/CIBmVXteOcI">Building Cheap & Efficient Home Servers with... Laptops? | Hardware Haven</a>
 
 <h2>What made you choose Debian & CasaOS compared to say a Proxmox?</h2>
 <p>
