@@ -8,7 +8,7 @@
   <li>CPU : Intel Core i5-6400T 2.80GHz</li>
   <li>Graphic Chipset : Intel HD Graphics 530 2.60GHz </li>
   <li>OS : Windows 10 Pro (64-bit)</li>
-  <li>RAM : Samsung 8GB DDR4 RAM</li>
+  <li>Memory : Samsung 8GB DDR4 RAM</li>
   <li>Disk : Western Digital (WD) 2.5" 500GB SATA HDD</li>
   <li>I/O Ports : VGA, DisplayPort, Headset port, 6 USB ports, LAN, SD Card Slot and HDMI</li>
 </ul>
