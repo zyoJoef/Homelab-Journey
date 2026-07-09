@@ -13,7 +13,7 @@
   <li>DVD/CD-rom Drive</li>
   <li>Webcam</li>
   <li>Wi-Fi & Bluetooth</li>
-  <li>I/O Ports : VGA, Headset port, 3 USB ports, Lan, SD Card Slot and HDMI</li>
+  <li>I/O Ports : VGA, Headset port, 3 USB ports, LAN, SD Card Slot and HDMI</li>
 </ul>
 
 <a href="https://m.blog.naver.com/it_tube/222698966903">Naver Blog about it's Disk and RAM</a>
