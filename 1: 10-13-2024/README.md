@@ -8,9 +8,9 @@
   <li>LCD : 15.6" (1920 x 1080 Full HD)</li>
   <li>Graphic Chipset : Intel HD Graphics 3000</li>
   <li>OS : Windows 11 Pro (64-bit)</li>
-  <li>System memory : 8GB</li>
-  <li>Storage Capacity : 256GB SSD</li>
-  <li>DVD/CD-rom drive</li>
+  <li>RAM : SK Hynix 8GB DDR3 RAM</li>
+  <li>Disk : Micron 2.5" 256GB SATA SSD</li>
+  <li>DVD/CD-rom Drive</li>
   <li>Webcam</li>
   <li>Wi-Fi & Bluetooth</li>
   <li>LAN</li>
