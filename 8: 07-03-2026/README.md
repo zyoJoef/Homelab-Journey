@@ -3,7 +3,7 @@
 <p>I've been really looking to acquiring one of these tiny thin client PC due to how small they are, how energy efficient they are, and the fact that some or most of them are fanless. Though the challenge was getting my hands on one, since these tiny Dell Wyse 3040 gets sold out really quick (I guess that's how popular they are) and here's the specification of the one that I received:</p>
 
 <ul>
-  <li>Model : 15N365</li>
+  <li>Model : Dell Wyse 3040 Thin Client Mini PC</li>
   <li>CPU : Intel Atom x5-Z8350 (1.44 GHz base, up to 1.92 GHz burst, Quad Core)</li>
   <li>LCD : 15.6" (1920 x 1080 Full HD)</li>
   <li>Graphic Chipset : Intel HD Graphics 400</li>
