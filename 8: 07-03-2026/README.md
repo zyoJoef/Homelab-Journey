@@ -47,3 +47,8 @@ Here's some Youtube Video Tutorial that I based/reference on:
 <p>
     I actually had trouble using this as DNS server on the MikroTik router switch that I have, since my other devices won't read nor detect the Pi-hole DNS Server IP Address, which is why I went into our ISP router settings and let it point to it as primary DNS sever and Google (8.8.8.8) as the secondary upstream DNS (although some website does take a while to load upon first loading), though I had to login as a superadmin on our ISP modem just to adjust it since upon using the credential written on the modem itself, it only gave a few options to tweak (though this might vary). 
 </p>
+
+<h2>Update: 07/11/2026</h2>
+<p>
+    I have gotten rid of this thin client mini pc from my setup, since I consistently kept getting a <i>curl error 28: Resolving timed out after 3000 milliseconds</i> from it (although I think it might be my fault for not assigning a static IP Address into it from our ISP router.
+</p>
