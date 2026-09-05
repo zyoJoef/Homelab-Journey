@@ -8,7 +8,7 @@ Here's some Youtube Video Tutorial that I based/reference on:
 
 <h2>What are the other reason on why I bought it?</h2>
 <p>
-    Since the HP managed switch I got together with the old router takes up at least two power outlet and gets warm a lot (just the HP switch) and I feel concerned and worry about leaving them on while I'm not around in the house (since our house does get really warm or hot too). With the Mikrotik Cloud Router Switch I was able to free up one power source while it still remained warm (though not as hot as the other switch). 
+    Since the HP managed switch I got together with the old router takes up at least two power outlet and gets warm a lot (HP switch) and I feel concerned and worry about leaving them on while I'm not around in the house (since our house does get really warm or hot). With the Mikrotik Cloud Router Switch I was able to free up one power source while it still remained warm (though not as hot as the other switch). 
 <br>
 <br>  
     Though funny enough since I'm a novice to these RouterOs configuration stuffs, I had to troubleshoot it immediately after screwing some settings up (such as accidentally corrupting the OS, it's IP address showing as 0.0.0.0) which made me rely on Netinstall and some help of AI (namely Google Gemini and ChatGPT) to get it back to it's working state. 
