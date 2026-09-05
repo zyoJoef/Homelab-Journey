@@ -5,7 +5,6 @@
 <ul>
   <li>Model : Dell Wyse 3040 Thin Client Mini PC</li>
   <li>CPU : Intel Atom x5-Z8350 (1.44 GHz base, up to 1.92 GHz burst, Quad Core)</li>
-  <li>LCD : 15.6" (1920 x 1080 Full HD)</li>
   <li>Graphic Chipset : Intel HD Graphics 400</li>
   <li>OS : Windows 10 Pro (64-bit)</li>
   <li>Memory : 2GB DDR3 RAM (Soldered)</li>
