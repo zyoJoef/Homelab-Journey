@@ -1,10 +1,12 @@
 <h1><b>06/26/2026</b></h1>
 
-<p>It's been a few months now since I kept using that TP-Link ER605 V2 Router, sadly it kept giving me frequent DNS issue. As I was scrolling on my Facebook Marketplace again I stumbled across a MikroTik Cloud Router Switch CRS210-8G-2S+IN for a steal price and I couldn't pass for it. It eventually replaced that router and this served now as my  router (I guess) since I'm running it of RouterOs and is set to Bridge mode (The TP-Link is only NAT) </p>
+<p>It's been a few months now since I kept using that TP-Link ER605 V2 Router, sadly it kept giving me frequent DNS issue. As I was scrolling on my Facebook Marketplace again I stumbled across a <b>MikroTik CRS210-8G-2S+IN Cloud Router Switch</b> for a steal price and I couldn't pass for it. It eventually replaced that router and this served now as my  router (I guess) since I'm running it of RouterOs and is set to Bridge mode (The TP-Link is only NAT) </p>
 
-Here's some Youtube Video Tutorial that I based/reference on:
+Youtube Videos that I based/reference on:
 <br>
   <a href="https://youtu.be/gzlLbIf3Dbk">MikroTips: Netinstall | MikroTik</a>
+<br>
+  <a href="https://www.youtube.com/watch?v=Ow2u__L-1Cc">Mikrotik CRS310-8G+2S+IN SwOS Noctua RGB Mod | Jaren Havell</a>
 
 <h2>What are the other reason on why I bought it?</h2>
 <p>
