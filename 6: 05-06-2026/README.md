@@ -11,14 +11,14 @@
   <li>OS : Windows 10 Pro (64-bit)</li>
   <li>Memory : Samsung 8GB DDR4 RAM</li>
   <li>Disk : Western Digital (WD) 2.5" 500GB SATA HDD</li>
-  <li>I/O Ports : VGA, DisplayPort, Headset port, 6 USB ports, LAN, SD Card Slot and HDMI</li>
+  <li>I/O Ports : VGA, DisplayPort, Headset port, 6 USB ports, and LAN</li>
 </ul>
 
 <a href="https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M700_Tiny/ThinkCentre_M700_Tiny_Spec.PDF">Lenovo ThinkCentre M700 Tiny Spec PDF</a>
 
 <h2>Why did I brought it in the first place?</h2>
 <p>
-    After noticing that the laptop gets really hot easily, I was concern about using it from extended periods of time, where I also read somewhere that using a laptop for homelab isn't advisable too since they're not primarily designed to run 24/7, plus you get the risk of the spicy pillow too! Moreover, the new machine still is running the same Debian + CasaOS setup, just enclosed on a new machine that is more compact (since the screen, keyboard, touchpad, and battery are out of the equation). 
+    After noticing that the laptop gets really hot easily, I was concern about using it from extended periods of time, where I also read somewhere that using a laptop for homelab isn't advisable too since they're not primarily designed to run 24/7, and you get the risk of the spicy pillow too! Moreover, the new machine still is running the same Debian + CasaOS setup, just enclosed on a new machine that is more compact (since the screen, keyboard, touchpad, and battery are out of the equation). 
 <br>
 <br>
     I went for this Mini PC instead of buying a proper System Unit or computer, since they're really quiet, power efficient, and somewhat easier to maintain as compared to their more capable or expandable yet big computer tower or rack-mount server.
