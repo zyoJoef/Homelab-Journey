@@ -1,6 +1,8 @@
 <h1><b>06/26/2026</b></h1>
 
-<p>It's been a few months now since I kept using that TP-Link ER605 V2 Router, sadly it kept giving me frequent DNS issue. As I was scrolling on my Facebook Marketplace again I stumbled across a <b>MikroTik CRS210-8G-2S+IN Cloud Router Switch</b> for a steal price and I couldn't pass for it. It eventually replaced that router and this served now as my  router (I guess) since I'm running it of RouterOs and is set to Bridge mode (The TP-Link is only NAT) </p>
+<p>
+    It's been a few months now since I kept using that TP-Link ER605 V2 Router, sadly it kept giving me frequent DNS issue. As I was scrolling on my Facebook Marketplace again I stumbled across a <b>MikroTik CRS210-8G-2S+IN Cloud Router Switch</b> for a steal price and I couldn't pass for it. It eventually replaced that router and this served now as my  router (I guess) since I'm running it of RouterOs and is set to Bridge mode (The TP-Link is only NAT)
+</p>
 
 Youtube Videos that I based/reference on:
 <br>
@@ -18,7 +20,7 @@ Youtube Videos that I based/reference on:
 
 <h2>Note</h2>
 <p>
-    I didn't knew that it is still a router, so I might probably just add a dedicated router again in the future, but for the mean time this should do. 
+    I didn't knew that it is still a switch, so I might probably just add a dedicated router again in the future, but for the mean time this should do. 
 <br>
 <br>
     Furthermore, since this gave a new IP address to each of the devices connencted to it, I had to reconfigure everything again such as their IP & MAC Address, Static DNS and others.
