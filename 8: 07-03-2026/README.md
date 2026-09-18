@@ -1,6 +1,8 @@
 <h1><b>07/03/2026</b></h1>
 
-<p>I've been really looking to acquiring one of these tiny thin client PC due to how small they are, how energy efficient they are, and the fact that some or most of them are fanless. Though the challenge was getting my hands on one, since these tiny Dell Wyse 3040 gets sold out really quick (I guess that's how popular they are) and here's the specification of the one that I received:</p>
+<p>
+  I've been really looking to acquiring one of these tiny thin client PC due to how small they are, how energy efficient they are, and the fact that some or most of them are fanless. Though the challenge was getting my     hands on one, since these tiny Dell Wyse 3040 gets sold out really quick (I guess that's how popular they are) and here's the specification of the one that I received:
+</p>
 
 <ul>
   <li>Model : Dell Wyse 3040 Thin Client Mini PC</li>
