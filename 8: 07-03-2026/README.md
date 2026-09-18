@@ -14,7 +14,7 @@
   <li>I/O Ports : DisplayPort, Headset port, 4 USB ports and LAN</li>
 </ul>
 
-Youtube Video Tutorial that I based/reference on:
+Youtube Videos that I based/reference on:
 <br>
   <a href="https://youtu.be/OB51DoA43CI">Easily Install Pi-Hole using Diet Pi ! - Quick & Easy ! | Matthews Tech Hub</a>
 <br>
