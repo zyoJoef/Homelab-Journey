@@ -14,7 +14,7 @@ Here's some Youtube Video Tutorial that I based/reference on:
 
 <h2>What do you use it for?</h2>
 <p>
-  I'm mostly using it so that I don't have to plug other devices into my main switch, and it also where I would connect things that are just for experiment, testing and/or for temporary usage only, such as plugging a separate laptop, network device etc.
+  I'm mostly using it so that I don't have to plug other devices into my main switch, and it is also where I would connect things for experiment, testing and/or for temporary usage only, such as plugging a separate laptop, network device etc.
 </p>
 
 <h2>Note</h2>
