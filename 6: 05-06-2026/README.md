@@ -21,12 +21,12 @@
     After noticing that the laptop gets really hot easily, I was concern about using it from extended periods of time, where I also read somewhere that using a laptop for homelab isn't advisable too since they're not primarily designed to run 24/7, plus you get the risk of the spicy pillow too! Moreover, the new machine still is running the same Debian + CasaOS setup, just enclosed on a new machine that is more compact (since the screen, keyboard, touchpad, and battery are out of the equation). 
 <br>
 <br>
-    I went for this Mini PC instead of buying a proper System Unit or computer, since they're really quiet, power efficient, and somewhat easier to maintain as compared to their more capable or expandable tower computer or rack-mount server.
+    I went for this Mini PC instead of buying a proper System Unit or computer, since they're really quiet, power efficient, and somewhat easier to maintain as compared to their more capable or expandable yet big computer tower or rack-mount server.
 </p>
 
 <h2>What happened to the laptop?</h2>
 <p>
-  Well it sat on the shelf again being unused, which I'm now just using for experimental stuff (such as when live booting other Linux distro, Trying DietPi + PiHole, etc.)
+  Well it sat on the shelf again being unused, which I'm now just using for experimental stuff (such as trying different Linux distro, Trying DietPi + PiHole, etc.)
 </p>
 
 <h2>What are the services that you are running into it?</h2>
