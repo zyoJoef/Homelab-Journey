@@ -1,16 +1,17 @@
-<h1><b>07/11/2026</b></h1>
+# 07/11/2026
 
 <p>
   Since I've been constantly connecting and disconnecting devices from the single ethernet cable on the other side of my table, I was worried about the possible wear & tear it could introduce to it, and sometimes I felt the need for connecting more than 1 device from it. Although I could just connect it directly from my main switch, but then it creates a messy cable dangling around. I don't want to add another long cable run, as it's not feasible and would pile up. Luckily I saw the <b>TP-Link TL-SG105E Easy Smart Unmanaged Switch</b> go on sale from it's usual price, so I pull the trigger on it. It's so small and compact, it actually tucks away nicely and is almost comparable with my previous TP-Link TL-SG105 5-port switch that I've already sold.
 </p>
 
+<h2>Specification:</h2>
 <ul>
   <li>TP-Link TL-SG105E Easy Smart 5-port Gigabit Unmanaged Switch</li>
   <li>Speed: 10/100/1000</li>
   <li>Web-Based User Interface</li>
 </ul>
 
-Youtube Video that I based/reference on:
+<h2>Youtube Video that I based/reference on:</h2>
 <br>
   <a href="https://www.youtube.com/watch?v=yD3mr0PkxP8">TP Link SG105E Gigabit Switch Review: Is It Worth Buying? | Leo's Tech Corner</a>
 
