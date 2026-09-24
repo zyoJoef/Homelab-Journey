@@ -1,4 +1,4 @@
-<h1><b>10/13/2024</b></h1>
+# 10/13/2024
 
 <p>
     During my first year as a Computer Science student, I was still clueless about these homelab, network, and other IT/Network related terminologies. But that particular year is where I managed to snag this LG 15N365 Laptop that has the following specification:
