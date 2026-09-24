@@ -1,9 +1,10 @@
-<h1><b>07/03/2026</b></h1>
+# 07/03/2026
 
 <p>
-  I've been really looking to acquiring one of these tiny thin client PC due to how small they are, how energy efficient they are, and the fact that some or most of them are fanless. Though the challenge was getting my     hands on one, since these tiny Dell Wyse 3040 gets sold out really quick (I guess that's how popular they are) and here's the specification of the one that I received:
+  I've been really looking to acquiring one of these tiny thin client PC due to how small they are, how energy efficient they are, and the fact that some or most of them are fanless. Though the challenge was getting my     hands on one, since these tiny Dell Wyse 3040 gets sold out really quick (I guess that's how popular they are) 
 </p>
 
+<h2>Specification:</h2>
 <ul>
   <li>Model : Dell Wyse 3040 Thin Client Mini PC</li>
   <li>CPU : Intel Atom x5-Z8350 (1.44 GHz base, up to 1.92 GHz burst, Quad Core)</li>
@@ -14,7 +15,7 @@
   <li>I/O Ports : DisplayPort, Headset port, 4 USB ports and LAN</li>
 </ul>
 
-Youtube Videos that I based/reference on:
+<h2>Youtube Videos that I based/reference on:</h2>
 <br>
   <a href="https://youtu.be/OB51DoA43CI">Easily Install Pi-Hole using Diet Pi ! - Quick & Easy ! | Matthews Tech Hub</a>
 <br>
