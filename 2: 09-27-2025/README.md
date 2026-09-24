@@ -1,4 +1,4 @@
-<h1><b>09/27/2025</b></h1>
+# 09/27/2025
 
 <p>
     After months or even a year of having it and after using it in Windows, I encountered an issue with the 'Network Drive' issue, where it kept giving me <i>(Network Drive) is not accessible: The user name or password is incorrect.</i> error. Which became my reason to finally made the move, to go for Linux for the very first time. After hours of researching and watching videos about how to convert old hardware to a server, I've chose debian to make full use of the OS distro.
