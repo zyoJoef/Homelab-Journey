@@ -1,9 +1,10 @@
-<h1><b>05/06/2026</b></h1>
+# 05/06/2026
 
 <p>
     After months of usage with my LG Laptop server I decided to finally let go of it's role and give it to a new machine that I got for a good price, hence why I bought a <b>Lenovo M900 Tiny mini pc</b>. It originally came with a 500GB HDD, but thankfully it supports M.2 SATA SSD so all I had to do is transfer the SSD from the laptop and it worked right out of the box without needing reinstallation nor reconfigure everything from scratch. I then attach the primary 2TB HDD inside (since it fit both 1 M.2 and SATA drive), everything went flawless as if nothing has changed (well except probably for it's IP and MAC Address). Also, the ThinkCentre red LED light indicator on the front doesn't appear to work when I received it (the seller have two of these but due to budget constraint I can only buy one and let the other one go).
 :</p>
 
+<h2>Specification:</h2>
 <ul>
   <li>Model : Lenovo M900 Tiny</li>
   <li>CPU : Intel Core i5-6400T 2.80GHz</li>
@@ -19,8 +20,8 @@
 <h2>Why did I brought it in the first place?</h2>
 <p>
     After noticing that the laptop gets really hot easily, I was concern about using it from extended periods of time, where I also read somewhere that using a laptop for homelab isn't advisable too since they're not primarily designed to run 24/7, and you get the risk of the spicy pillow too! Moreover, the new machine still is running the same Debian + CasaOS setup, just enclosed on a new machine that is more compact (since the screen, keyboard, touchpad, and battery are out of the equation). 
-<br>
-<br>
+</p>
+<p>
     I went for this Mini PC instead of buying a proper System Unit or computer, since they're really quiet, power efficient, and somewhat easier to maintain as compared to their more capable or expandable yet big computer tower or rack-mount server.
 </p>
 
@@ -46,10 +47,10 @@
 <h2>Note</h2>
 <p>
     On the later part I've actually attached that secondary 2TB HDD back, but this time with an external USB Disk Enclosure, since there's no more space left inside for another one, and so that I could do a RAID 1 Setup again. 
-<br>
-<br>
+</p>
+<p>
     I know the way I placed the server in the picture was wrong because they should be somewhere in/at the bottom instead of being in the middle, which is why redid it after doing some researching about putting the heavier equipments on the bottom and the lighter one obviously in the middle or at the top (top-down approach). 
-<br>
-<br> 
+</p>
+<p>
    Also, a few months ago I did try to run Ollama local LLM on my LG Laptop server, but then it really showed it's hardware limitation and the bare minimum needed in order to run one. Hence why I didn't bother installing Local LLM, especially with the current price of RAM and Disk nowadays being all over the roof.
 </p>
