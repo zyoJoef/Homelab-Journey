@@ -40,7 +40,6 @@
 </p>
 
 <h2>References:</h2>
-<br>
   <a href="https://youtu.be/OB51DoA43CI">Easily Install Pi-Hole using Diet Pi ! - Quick & Easy ! | Matthews Tech Hub</a>
 <br>
   <a href="https://youtu.be/Zbg1M-u_l3w">Blocking Ads With a 15 Year Old Computer | Hardware Haven</a>
