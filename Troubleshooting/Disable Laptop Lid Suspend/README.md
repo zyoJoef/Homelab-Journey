@@ -7,10 +7,11 @@ In terms of using a laptop as a Debian Server
   <li>Open a terminal and edit the configuration file with root privileges using a text editor like nano: 
     <pre><code>sudo nano /etc/systemd/logind.conf</code></pre></li>
   <li>Locate the following lines (they might be commented out with a # symbol at the beginning):
-    • HandleLidSwitch=suspend
-      <br>
+		<br>
+	  • HandleLidSwitch=suspend
+        <br>
 	  • HandleLidSwitchDocked=suspend (or ignore)
-      <br></li>
+        <br></li>
   <li>Remove the # character at the beginning of these lines and change suspend to ignore so they look like this:
     <pre><code>HandleLidSwitch=ignore</code></pre></li>
     <pre><code>HandleLidSwitchDocked=ignore</code></pre></li></li>
