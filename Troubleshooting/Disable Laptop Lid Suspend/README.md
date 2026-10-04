@@ -1,4 +1,4 @@
-# Disable Lid Suspend
+# Disable Laptop Lid Suspend
 
 In terms of using a laptop as a Debian Server
 
