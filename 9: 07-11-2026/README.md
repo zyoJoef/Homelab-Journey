@@ -11,7 +11,7 @@
   <li>Web-Based User Interface</li>
 </ul>
 
-<h2>Youtube Video that I based/reference on:</h2>
+<h2>Reference:</h2>
 <br>
   <a href="https://www.youtube.com/watch?v=yD3mr0PkxP8">TP Link SG105E Gigabit Switch Review: Is It Worth Buying? | Leo's Tech Corner</a>
 
