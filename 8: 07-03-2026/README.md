@@ -15,22 +15,6 @@
   <li>I/O Ports : DisplayPort, Headset port, 4 USB ports and LAN</li>
 </ul>
 
-<h2>References:</h2>
-<br>
-  <a href="https://youtu.be/OB51DoA43CI">Easily Install Pi-Hole using Diet Pi ! - Quick & Easy ! | Matthews Tech Hub</a>
-<br>
-  <a href="https://youtu.be/Zbg1M-u_l3w">Blocking Ads With a 15 Year Old Computer | Hardware Haven</a>
-<br>
-  <a href="https://youtu.be/9C7UGogyTWo">Do These CHEAP PCs Live Up To The Hype? | Hardware Haven</a>
-<br>
-  <a href="https://youtu.be/LADsGBvB_ns">Little Guys: Episode 2 Wyse 3040 | Cathode Ray Dude - CRD</a>
-<br>
-  <a href="https://youtu.be/tmYsT5dhi_E">Are $20 Thin Clients from eBay Worth It? Dell Wyse 3040 & HP T520 Review | Technically Unsure</a>
-<br>
-  <a href="https://youtu.be/8QTdW0Q8U3E">Building The "Ultimate" Router - PFSense + Pi-hole + PIVPN | Hardware Haven</a>
-<br>
-  <a href="https://youtu.be/oh2FUzAa5s8">Unbound + Pi-hole Setup Tutorial | WunderTech - CRD</a>
-
 <h2>Why install Pi-hole into it?</h2>
 <p>
   Govern that they're not powerful enough to run Windows 10 that they came along with. So I decided to turn it into a DNS Adblocker Server which it is somewhat capable of, by having DietPi as it's main OS (which is really lightweight). Although I had to reinstall the DietPi OS since I had an curl issue with it after messing something up in the setting again, but after it everything seem to work fine.
@@ -54,3 +38,19 @@
 <p>
     I have gotten rid of this thin client mini pc from my setup, since I consistently kept getting a <i>curl error 28: Resolving timed out after 3000 milliseconds</i> from it (although I think it might be my fault for not assigning a static IP Address into it from our ISP router).
 </p>
+
+<h2>References:</h2>
+<br>
+  <a href="https://youtu.be/OB51DoA43CI">Easily Install Pi-Hole using Diet Pi ! - Quick & Easy ! | Matthews Tech Hub</a>
+<br>
+  <a href="https://youtu.be/Zbg1M-u_l3w">Blocking Ads With a 15 Year Old Computer | Hardware Haven</a>
+<br>
+  <a href="https://youtu.be/9C7UGogyTWo">Do These CHEAP PCs Live Up To The Hype? | Hardware Haven</a>
+<br>
+  <a href="https://youtu.be/LADsGBvB_ns">Little Guys: Episode 2 Wyse 3040 | Cathode Ray Dude - CRD</a>
+<br>
+  <a href="https://youtu.be/tmYsT5dhi_E">Are $20 Thin Clients from eBay Worth It? Dell Wyse 3040 & HP T520 Review | Technically Unsure</a>
+<br>
+  <a href="https://youtu.be/8QTdW0Q8U3E">Building The "Ultimate" Router - PFSense + Pi-hole + PIVPN | Hardware Haven</a>
+<br>
+  <a href="https://youtu.be/oh2FUzAa5s8">Unbound + Pi-hole Setup Tutorial | WunderTech - CRD</a>
