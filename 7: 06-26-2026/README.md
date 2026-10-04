@@ -5,13 +5,6 @@
 </p>
 
 
-<h2>Youtube Videos that I based/reference on:</h2>
-<br>
-  <a href="https://youtu.be/gzlLbIf3Dbk">MikroTips: Netinstall | MikroTik</a>
-<br>
-  <a href="https://www.youtube.com/watch?v=Ow2u__L-1Cc">Mikrotik CRS310-8G+2S+IN SwOS Noctua RGB Mod | Jaren Havell</a>
-
-
 <h2>What are the other reason on why I bought it?</h2>
 <p>
     Since the HP managed switch I got together with the old router takes up at least two power outlet and gets warm a lot,and I feel concerned and worry about leaving them on while I'm not around in the house (since our house does get really warm or hot). With the Mikrotik Cloud Router Switch I was able to free up one power source while it still remained warm (though not as hot as the other switch). 
@@ -32,3 +25,9 @@
 <p>
     Also, don't mind the old TP-Link ER605 V2 router in the pictures.
 </p>
+
+
+<h2>References:</h2>
+  <a href="https://youtu.be/gzlLbIf3Dbk">MikroTips: Netinstall | MikroTik</a>
+<br>
+  <a href="https://www.youtube.com/watch?v=Ow2u__L-1Cc">Mikrotik CRS310-8G+2S+IN SwOS Noctua RGB Mod | Jaren Havell</a>
