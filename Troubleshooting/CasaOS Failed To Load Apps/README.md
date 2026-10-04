@@ -7,6 +7,7 @@ Not so painful way to downgrade on Debian linux:
   <pre><code>sudo apt update</code></pre>
 
 
+
 <h2>2. List available docker-ce versions:</h2>
   <pre><code>apt-cache policy docker-ce</code></pre>
 
@@ -15,8 +16,10 @@ Example snippet string:
 5:28.3.2<s>debian.12</s>bookworm /last known running
 
 
+
 <h2>3. Stop Docker Service</h2>
   <pre><code>sudo systemctl stop docker</code></pre>
+
 
 
 <h2>4.Remove Current Docker Packages</h2>
@@ -26,34 +29,35 @@ Remove the existing Docker packages using apt remove. This step removes the bina
 <b>Warning:</b> Do NOT use sudo apt purge or manually run sudo rm -rf /var/lib/docker, as this will delete all your containers and images.
 
 
+
 <h2>5. Install the Specific Older Version</h2>
-sudo apt install -y docker-ce=[VERSION_STRING] docker-ce-cli=[VERSION_STRING] containerd.io
+  <pre><code>sudo apt install -y docker-ce=[VERSION_STRING] docker-ce-cli=[VERSION_STRING] containerd.io</code></pre>
 
 Where I used to make it run again :
+  <pre><code>sudo apt install -y docker-ce=5:28.3.2~debian.12~bookworm docker-ce-cli=5:28.3.2~debian.12~bookworm containerd.io</code></pre>
 
-sudo apt install -y docker-ce=5:28.3.2~debian.12~bookworm docker-ce-cli=5:28.3.2~debian.12~bookworm containerd.io
 
-Start the Docker service
-sudo systemctl start docker
 
-Verify the new version and check your containers
-docker version
-docker ps -a
+<h2>6. Start the Docker service</h2>
+  <pre><code>sudo systemctl start docker</code></pre>
 
-8.Prevent Future Upgrades (Optional)
 
+
+<h2>7. Verify the new version and check your containers</h2>
+  <pre><code>docker version</code></pre>
+  <pre><code>docker ps -a</code></pre>
+
+
+
+<h2>8.Prevent Future Upgrades (Optional)</h2>
 To HOLD the upgrade of Docker until CasaOS is updated:
-
-sudo apt-mark hold docker-ce docker-ce-cli containerd.io
+  <pre><code>sudo apt-mark hold docker-ce docker-ce-cli containerd.io</code></pre>
 
 To UNHOLD the upgrade of Docker until CasaOS is updated:
-
-sudo apt-mark unhold docker-ce docker-ce-cli containerd.io
+  <pre><code>sudo apt-mark unhold docker-ce docker-ce-cli containerd.io</code></pre>
 
 Hope this helps!
 
-Reacted by jone79, Ry, Andrei Filippov, Simos Sigma, blitzespiee, chchia, Mujtaba Asif, z3rodown, Anil Kumar, mkart7 and 18 more
-Reacted by Erlam Castanho, Noa, Ömer Emre Bozkurt and Alex
 
 
 <h2>References</h2>
