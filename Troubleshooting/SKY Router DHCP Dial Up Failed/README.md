@@ -51,6 +51,15 @@ Directly quoting Facebook User "Jane Marie" post
     <li><h3>Go back to ADVANCED > WAN and Click New</h3></li>
         <img src="https://github.com/user-attachments/assets/93aa806e-7103-4970-9c8d-5339fa47cdfe" alt="image" style="width:50%">
             <p>You will see that it is now empty. In the picture, just pretend that it is empty</p>
+    <hr>
+    <li><h3>Here's the setting that you must add:</h3></li>
+        <pre><code>
+            Service type: INTERNET
+            VLAN ID: 10
+            MTU: 1500
+        </code></pre>
+            <img src="https://github.com/user-attachments/assets/4a696d5d-ac5c-42ec-9d89-646d74a59662" alt="image" style="width:50%">
+                <p>Click Apply. You will do it thrice. So you will have 3 INTERNET in the WAN. After that, go back to Maintenance Diagnosis > Configuration File then click Save and Restart.</p>
 </li>
 </ol>
 
