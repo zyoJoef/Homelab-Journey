@@ -27,7 +27,8 @@ Directly quoting Facebook User "Jane Marie" post
         <img src="https://github.com/user-attachments/assets/bf0cc221-1c47-47e2-bf7a-9d5e8091e966" alt="image" style="width:50%">
 
     <li><h3>Second, login</h3></li>
-        <img width="720" height="960" alt="image" src="https://github.com/user-attachments/assets/899a13d8-903c-4034-b458-c10b0dde8020" />
+<img width="720" height="960" alt="image" src="https://github.com/user-attachments/assets/3d67406e-7b7d-4a7f-ac38-b8a92399725d" />
+
 
 </li>
 </ol>
