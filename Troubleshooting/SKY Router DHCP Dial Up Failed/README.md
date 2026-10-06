@@ -2,7 +2,7 @@
 
 <h2>Problem</h2>
 <p>
-So it has occurred twice already when we encountered waking up with a "Connected but No Internet" from our devices, and upon checking our home ISP Router (Sky Cable) which is the model Huawei EG8041X6-10, it shows up on the One-Click Diagnosis as "DHCP Dial Up Failed". Even if our other neighbors who also had the same ISP as ours doesn't have any issues, it is frustrating and can be unproductive to have no internet access, but luckily I found some solutions. 
+It has occurred twice already when we encountered waking up with a "Connected but No Internet" from our devices (we usually turn it off during the night), and upon checking our home ISP Router (Sky Cable) which is the model Huawei EG8041X6-10, it shows up on the One-Click Diagnosis as "DHCP Dial Up Failed". Even if our other neighbors who also had the same ISP as ours doesn't have any issues, it is frustrating and can be unproductive to have no internet access, but luckily I found some solutions. 
 </p>
 
 Note: There is no guarantee that this would work for everyone. Also router settings and credential may vary from one to the other. 
