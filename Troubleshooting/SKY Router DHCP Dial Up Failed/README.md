@@ -62,7 +62,9 @@ Directly quoting Facebook User "Jane Marie" post
                 <p>Click Apply. You will do it thrice. So you will have 3 INTERNET in the WAN. After that, go back to Maintenance Diagnosis > Configuration File then click Save and Restart.</p>
     <hr>
     <li><h3>Your router will restart and log back in to the admin. Check if the 3 INTERNET we did earlier shows up as Connected. How to check? Click SYSTEM INFORMATION > WAN.</h3></li>
-            <p>If one of them shows up as Connected then congrats you have Internet Connection! But we are not finished yet, Go back to Advanced > WAN and delete the other two (2) INTERNET that we did earlier, since we only need one. Go to NEW and add this settings:</p>
+            <p>
+                If one of them shows up as Connected then congrats you have Internet Connection! But we are not finished yet, Go back to Advanced > WAN and delete the other two (2) INTERNET that we did earlier, since we                 only need one. Go to NEW and add this settings:
+            </p>
         <pre><code>
             Service Type: TR069
             VLAN ID: 10
@@ -76,9 +78,13 @@ Directly quoting Facebook User "Jane Marie" post
 
 <h2>Other Alternative</h2>
 <ul>
-    <li><b>Power Cycle the Equipment:</b> Turn off and unplug your optical network terminal (ONT/modem) and your router. Wait for 30 to 60 seconds, plug in the modem first and let its lights stabilize, then plug in your router.</li>
-    <li><b>Release and Renew IP / Check WAN Settings:</b> Log in to your router’s administrative page (usually 192.168.1.1 or 192.168.0.1) using the credentials on the sticker under the device. Verify that the WAN connection type is set to Dynamic IP (DHCP) rather than PPPoE or Static, unless your specific plan requires otherwise.</li>
+    <li><b>Power Cycle the Equipment:</b> Turn off and unplug your optical network terminal (ONT/modem) and your router. Wait for 30 to 60 seconds, plug in the modem first and let its lights stabilize, then plug in your         router.</li>
+    <li><b>Release and Renew IP / Check WAN Settings:</b> Log in to your router’s administrative page (usually 192.168.1.1 or 192.168.0.1) using the credentials on the sticker under the device. Verify that the WAN              connection type is set to Dynamic IP (DHCP) rather than PPPoE or Static, unless your specific plan requires otherwise.</li>
     <li><b>Check for Outages:</b> A DHCP/WAN failure can sometimes be caused by a wider regional outage or server-side drop from your provider rather than a broken home device.</li>
+    <li><b>Change DNS settings:</b> If you can reach the WAN/LAN setup, try manually updating your DNS servers to public options like Cloudflare (1.1.1.1 and 1.0.0.1).</li>
+    <li><b>Avoid hard-resetting immediately:</b> Pushing the physical reset button for too long can wipe your ISP-specific VLAN and provisioning settings, which often makes the connection worse.</li>
+    <li><b>Contact your ISP support hotline:</b> If the diagnostics still show a DHCP dialup failure, the issue is typically on the provider's side or requires a remote reconfig of your ONT (Optical Network Terminal)           profile.</li>
+
 </ul>
 
 
