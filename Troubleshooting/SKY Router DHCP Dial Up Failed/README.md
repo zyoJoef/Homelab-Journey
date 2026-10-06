@@ -83,7 +83,6 @@ Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
     <li><b>Change DNS settings:</b> If you can reach the WAN/LAN setup, try manually updating your DNS servers to public options like Cloudflare (1.1.1.1 and 1.0.0.1).</li>
     <li><b>Avoid hard-resetting immediately:</b> Pushing the physical reset button for too long can wipe your ISP-specific VLAN and provisioning settings, which often makes the connection worse.</li>
     <li><b>Contact your ISP support hotline:</b> If the diagnostics still show a DHCP dialup failure, the issue is typically on the provider's side or requires a remote reconfig of your ONT (Optical Network Terminal)           profile.</li>
-
 </ul>
 
 
