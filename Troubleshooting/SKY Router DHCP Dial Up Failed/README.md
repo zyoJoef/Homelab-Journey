@@ -58,7 +58,7 @@ Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
             MTU: 1500
         </code></pre>
             <img src="https://github.com/user-attachments/assets/4a696d5d-ac5c-42ec-9d89-646d74a59662" alt="image" style="width:50%">
-                <p>Click Apply. You will do it thrice. So you will have 3 INTERNET in the WAN. After that, go back to Maintenance Diagnosis > Configuration File then click Save and Restart.</p>
+                <p>Click Apply. You will do it thrice, so you will have 3 INTERNET in the WAN. After that, go back to Maintenance Diagnosis > Configuration File then click Save and Restart.</p>
     <hr>
     <li><h3>Your router will restart and log back in to the admin. Check if the 3 INTERNET we did earlier shows up as Connected. How to check? Click SYSTEM INFORMATION > WAN.</h3></li>
             <p>
