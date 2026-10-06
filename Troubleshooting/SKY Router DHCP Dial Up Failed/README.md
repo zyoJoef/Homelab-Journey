@@ -54,7 +54,7 @@ Directly quoting Facebook User "Jane Marie" post
     <hr>
     <li><h3>Here's the setting that you must add:</h3></li>
         <pre><code>
-            Service type: INTERNET
+            Service Type: INTERNET
             VLAN ID: 10
             MTU: 1500
         </code></pre>
