@@ -6,10 +6,27 @@ So it has occurred twice already when we encountered waking up with a "Connected
 </p>
 
 Note: There is no guarantee that this would work for everyone. 
- 
+
+<h2>Credentials</h2>
+Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
+<ul>
+    <li>IP Address: 192.168.100.1</li>
+    <li>User: telecomadmin <br> Password: Converge@huawe123</li>
+    <li>User: telecomadmin <br> Password: admintelecom</li>
+    <li>User: Epadmin <br> Password: adminEP</li>
+    <li>User: Epadmin <br> Password: adminEP</li>
+</ul>
+<b>Do not use</b> <li>User: root <br> Password: adminHW 
+ <br>
+  since it is not a superadmin user
+
 <h2>Steps</h2>
+Directly quoting Facebook User "Jane Marie" post
 <ol>
-  <li></li>
+    <li><h3>First, log in using the IP Address (192.168.100.1) (The router model is there if you have the same one, same user and pw lang din gamitin to access the admin)</h3></li>
+        <img src="https://github.com/user-attachments/assets/bf0cc221-1c47-47e2-bf7a-9d5e8091e966" alt="image" style="width:50%">
+   
+</li>
 </ol>
 
 
