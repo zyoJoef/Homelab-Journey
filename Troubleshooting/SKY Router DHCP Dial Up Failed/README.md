@@ -2,12 +2,12 @@
 
 <h2>Problem</h2>
 <p>
-So it has occurred twice already when we encountered waking up with a "Connected but No Internet" from our devices, and upon checking our ISP Router (Sky Cable) which is the model Huawei EG8041X6-10, it shows up on the One-Click Diagnosis as "DHCP Dial Up Failed", even if our other neighbors who also had the same ISP as ours doesn't have any issues. It is frustrating and can be unproductive to have no internet access, but luckily I found some solutions. 
+So it has occurred twice already when we encountered waking up with a "Connected but No Internet" from our devices, and upon checking our home ISP Router (Sky Cable) which is the model Huawei EG8041X6-10, it shows up on the One-Click Diagnosis as "DHCP Dial Up Failed". Even if our other neighbors who also had the same ISP as ours doesn't have any issues, it is frustrating and can be unproductive to have no internet access, but luckily I found some solutions. 
 </p>
 
 Note: There is no guarantee that this would work for everyone. Also router settings and credential may vary from one to the other. 
 
-
+TRY AT YOUR OWN RISK!!
 
 <h2>Credentials</h2>
 Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
@@ -18,9 +18,9 @@ Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
     <li>User: Epadmin <br> Password: adminEP</li>
     <li>User: Epadmin <br> Password: adminEP</li>
 </ul>
-<b>Do not use</b> <li>User: root <br> Password: adminHW 
+<b>Do not use the credential</b> <li>User: root <br> Password: adminHW 
  <br>
-  since it is not a superadmin user
+  since it is not a superadmin user, and only has limited options to access.
 
 
 
@@ -36,6 +36,9 @@ Directly quoting Facebook User "Jane Marie" post
     <li><h3>Login using the default credential on your router then go to One-Click Diagnosis</h3></li>
         <img src="https://github.com/user-attachments/assets/6032f9e6-4f45-45f4-ad0c-2d9eb36245a5" alt="image" style="width:50%">
             <p>If it is DHCP Dial Up Failed then proceed to the next step</p>
+    <hr>
+    <li><h3>On System Information, if you see these two shows up as either Disconnected or Connecting, go to the following steps</h3></li>
+        <img src="https://github.com/user-attachments/assets/11388d41-cdae-40bd-b025-b1527291d880" alt="image" style="width:50%">
     <hr>
     <li><h3>On System Information, if you see these two shows up as either Disconnected or Connecting, go to the following steps</h3></li>
         <img src="https://github.com/user-attachments/assets/11388d41-cdae-40bd-b025-b1527291d880" alt="image" style="width:50%">
