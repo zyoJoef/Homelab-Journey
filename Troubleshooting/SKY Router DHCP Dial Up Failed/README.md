@@ -74,6 +74,15 @@ Directly quoting Facebook User "Jane Marie" post
 
 
 
+<h2>Other Alternative</h2>
+<ul>
+    <li><b>Power Cycle the Equipment:</b> Turn off and unplug your optical network terminal (ONT/modem) and your router. Wait for 30 to 60 seconds, plug in the modem first and let its lights stabilize, then plug in your router.</li>
+    <li><b>Release and Renew IP / Check WAN Settings:</b> Log in to your router’s administrative page (usually 192.168.1.1 or 192.168.0.1) using the credentials on the sticker under the device. Verify that the WAN connection type is set to Dynamic IP (DHCP) rather than PPPoE or Static, unless your specific plan requires otherwise.</li>
+    <li><b>Check for Outages:</b> A DHCP/WAN failure can sometimes be caused by a wider regional outage or server-side drop from your provider rather than a broken home device.</li>
+</ul>
+
+
+
 <h2>References</h2>
   <a href="https://www.reddit.com/r/ConvergePH/comments/1j2n4vx/no_internet_connection_dhcp_dialup_fails/">No internet Connection | DHCP dialup fails</a>
     <br>
