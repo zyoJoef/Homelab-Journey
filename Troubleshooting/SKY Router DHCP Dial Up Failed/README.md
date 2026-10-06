@@ -7,6 +7,8 @@ So it has occurred twice already when we encountered waking up with a "Connected
 
 Note: There is no guarantee that this would work for everyone. Also router settings and credential may vary from one to the other. 
 
+
+
 <h2>Credentials</h2>
 Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
 <ul>
@@ -20,20 +22,26 @@ Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
  <br>
   since it is not a superadmin user
 
+
+
 <h2>Steps</h2>
 Directly quoting Facebook User "Jane Marie" post
 <ol>
-    <li><h3>First, log in using the IP Address (192.168.100.1) (The router model is there if you have the same one, same user and password)</h3></li>
+    <li><h3>Log in using the IP Address (192.168.100.1) (The router model is there if you have the same one, same user and password)</h3></li>
         <img src="https://github.com/user-attachments/assets/bf0cc221-1c47-47e2-bf7a-9d5e8091e966" alt="image" style="width:50%">
     <hr>
-    <li><h3>Second, login</h3></li>
+    <li><h3>Login</h3></li>
         <img src="https://github.com/user-attachments/assets/3d67406e-7b7d-4a7f-ac38-b8a92399725d" alt="image" style="width:50%">
     <hr>
-    <li><h3>Third, login using the default credential on your router then go to One-Click Diagnosis</h3></li>
+    <li><h3>Login using the default credential on your router then go to One-Click Diagnosis</h3></li>
         <img src="https://github.com/user-attachments/assets/6032f9e6-4f45-45f4-ad0c-2d9eb36245a5" alt="image" style="width:50%">
             <p>If it is DHCP Dial Up Failed then proceed to the next step</p>
+    <hr>
+    <li><h3>On System Information, if you see these two shows up as either Disconnected or Connecting, go to the following steps</h3></li>
+        <img src="https://github.com/user-attachments/assets/11388d41-cdae-40bd-b025-b1527291d880" alt="image" style="width:50%">
 </li>
 </ol>
+
 
 
 <h2>References</h2>
