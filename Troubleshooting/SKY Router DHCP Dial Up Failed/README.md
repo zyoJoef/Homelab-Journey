@@ -60,6 +60,15 @@ Directly quoting Facebook User "Jane Marie" post
         </code></pre>
             <img src="https://github.com/user-attachments/assets/4a696d5d-ac5c-42ec-9d89-646d74a59662" alt="image" style="width:50%">
                 <p>Click Apply. You will do it thrice. So you will have 3 INTERNET in the WAN. After that, go back to Maintenance Diagnosis > Configuration File then click Save and Restart.</p>
+    <hr>
+    <li><h3>Your router will restart and log back in to the admin. Check if the 3 INTERNET we did earlier shows up as Connected. How to check? Click SYSTEM INFORMATION > WAN.</h3></li>
+            <p>If one of them shows up as Connected then congrats you have Internet Connection! But we are not finished yet, Go back to Advanced > WAN and delete the other two (2) INTERNET that we did earlier, since we only need one. Go to NEW and add this settings:</p>
+        <pre><code>
+            Service Type: TR069
+            VLAN ID: 10
+            MTU: 1500
+        </code></pre>
+            <p>Click APPLY. Go to Maintenance Diagnosis > Config then SAVE AND RESTART. And viola you have Internet again!</p>
 </li>
 </ol>
 
