@@ -23,9 +23,12 @@ Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
 <h2>Steps</h2>
 Directly quoting Facebook User "Jane Marie" post
 <ol>
-    <li><h3>First, log in using the IP Address (192.168.100.1) (The router model is there if you have the same one, same user and pw lang din gamitin to access the admin)</h3></li>
+    <li><h3>First, log in using the IP Address (192.168.100.1) (The router model is there if you have the same one, same user and password)</h3></li>
         <img src="https://github.com/user-attachments/assets/bf0cc221-1c47-47e2-bf7a-9d5e8091e966" alt="image" style="width:50%">
-   
+
+    <li><h3>Second, login</h3></li>
+        <img width="720" height="960" alt="image" src="https://github.com/user-attachments/assets/899a13d8-903c-4034-b458-c10b0dde8020" />
+
 </li>
 </ol>
 
