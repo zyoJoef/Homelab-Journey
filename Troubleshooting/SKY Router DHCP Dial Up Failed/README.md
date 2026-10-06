@@ -43,7 +43,7 @@ Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
         <img src="https://github.com/user-attachments/assets/3e85a688-ec93-4649-96f8-b6ddab7eb4ff" alt="image" style="width:50%">
             <p>But first take a picture of each one, since we will be deleting and restoring them later on. So that you would have a backup on what to put in the settings once we put them back later.</p>
     <hr>
-    <li><h3>click Maintenance Diagnose > Configuration File. Click Save and Restart</h3></li>
+    <li><h3>Click Maintenance Diagnose > Configuration File. Click Save and Restart</h3></li>
         <img src="https://github.com/user-attachments/assets/93aa806e-7103-4970-9c8d-5339fa47cdfe" alt="image" style="width:50%">
             <p>Your router will restart. Log back in using the credentials at 192.168.100.1 and access the admin panel</p>
     <hr>
