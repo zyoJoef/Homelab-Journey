@@ -29,7 +29,7 @@ Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
     <li><h3>Search the IP Address of the router (192.168.100.1) (The router model is there if you have the same one, same user and password)</h3></li>
         <img src="https://github.com/user-attachments/assets/bf0cc221-1c47-47e2-bf7a-9d5e8091e966" alt="image" style="width:50%">
     <hr>
-    <li><h3>Login</h3></li>
+    <li><h3>Login using the provided credentials above</h3></li>
         <img src="https://github.com/user-attachments/assets/3d67406e-7b7d-4a7f-ac38-b8a92399725d" alt="image" style="width:50%">
     <hr>
     <li><h3>Login using the default credential on your router then go to One-Click Diagnosis</h3></li>
