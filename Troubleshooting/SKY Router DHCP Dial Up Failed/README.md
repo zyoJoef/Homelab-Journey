@@ -47,6 +47,10 @@ Directly quoting Facebook User "Jane Marie" post
     <li><h3>click Maintenance Diagnose > Configuration File. Click Save and Restart</h3></li>
         <img src="https://github.com/user-attachments/assets/93aa806e-7103-4970-9c8d-5339fa47cdfe" alt="image" style="width:50%">
             <p>Your router will restart. Log back in using the credentials at 192.168.100.1 and access the admin panel</p>
+    <hr>
+    <li><h3>Go back to ADVANCED > WAN and Click New</h3></li>
+        <img src="https://github.com/user-attachments/assets/93aa806e-7103-4970-9c8d-5339fa47cdfe" alt="image" style="width:50%">
+            <p>You will see that it is now empty. In the picture, just pretend that it is empty</p>
 </li>
 </ol>
 
