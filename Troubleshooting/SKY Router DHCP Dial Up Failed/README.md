@@ -25,7 +25,6 @@ Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
 
 
 <h2>Steps</h2>
-Directly quoting Facebook User "Jane Marie" post
 <ol>
     <li><h3>Log in using the IP Address (192.168.100.1) (The router model is there if you have the same one, same user and password)</h3></li>
         <img src="https://github.com/user-attachments/assets/bf0cc221-1c47-47e2-bf7a-9d5e8091e966" alt="image" style="width:50%">
