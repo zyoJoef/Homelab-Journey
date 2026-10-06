@@ -62,7 +62,7 @@ Directly quoting Facebook User "Jane Marie" post and Reddit user "aninong"
     <hr>
     <li><h3>Your router will restart and log back in to the admin. Check if the 3 INTERNET we did earlier shows up as Connected. How to check? Click SYSTEM INFORMATION > WAN.</h3></li>
             <p>
-                If one of them shows up as Connected then congrats you have Internet Connection! But we are not finished yet, Go back to Advanced > WAN and delete the other two (2) INTERNET that we did earlier, since we                 only need one. Go to NEW and add this settings:
+                If one of them shows up as Connected then congrats you have Internet Connection! But we are not finished yet, go back to Advanced > WAN and delete the other two INTERNET that we did earlier, since we                 only need one. Go to NEW and add this settings:
             </p>
         <pre><code>
             Service Type: TR069
