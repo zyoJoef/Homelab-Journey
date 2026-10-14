@@ -7,7 +7,6 @@ Not so painful way to downgrade on Debian linux:
   <pre><code>sudo apt update</code></pre>
 
 
-
 <h2>2. List available docker-ce versions:</h2>
   <pre><code>apt-cache policy docker-ce</code></pre>
 
@@ -16,10 +15,8 @@ Example snippet string:
 5:28.3.2<s>debian.12</s>bookworm /last known running
 
 
-
 <h2>3. Stop Docker Service</h2>
   <pre><code>sudo systemctl stop docker</code></pre>
-
 
 
 <h2>4.Remove Current Docker Packages</h2>
@@ -29,7 +26,6 @@ Remove the existing Docker packages using apt remove. This step removes the bina
 <b>Warning:</b> Do NOT use sudo apt purge or manually run sudo rm -rf /var/lib/docker, as this will delete all your containers and images.
 
 
-
 <h2>5. Install the Specific Older Version</h2>
   <pre><code>sudo apt install -y docker-ce=[VERSION_STRING] docker-ce-cli=[VERSION_STRING] containerd.io</code></pre>
 
@@ -37,16 +33,13 @@ Where I used to make it run again :
   <pre><code>sudo apt install -y docker-ce=5:28.3.2~debian.12~bookworm docker-ce-cli=5:28.3.2~debian.12~bookworm containerd.io</code></pre>
 
 
-
 <h2>6. Start the Docker service</h2>
   <pre><code>sudo systemctl start docker</code></pre>
-
 
 
 <h2>7. Verify the new version and check your containers</h2>
   <pre><code>docker version</code></pre>
   <pre><code>docker ps -a</code></pre>
-
 
 
 <h2>8.Prevent Future Upgrades (Optional)</h2>
@@ -57,7 +50,6 @@ To UNHOLD the upgrade of Docker until CasaOS is updated:
   <pre><code>sudo apt-mark unhold docker-ce docker-ce-cli containerd.io</code></pre>
 
 Hope this helps!
-
 
 
 <h2>References</h2>
