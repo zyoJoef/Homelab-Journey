@@ -8,6 +8,8 @@ A repository consisting of my blocklist used for the Pi-hole adblocker
   <li>https://urlhaus.abuse.ch/</li>
   <li>https://oisd.nl/</li>
   <li>https://firebog.net/</li>
+  <li>https://cdn.jsdelivr.net/gh/hagezi/dns-blocklist@latest/adblock/pro.txt</li>
+  <li>https://github.com/Grujowmi/ShadowFortress</li>
 </ul>
 
 <h2>References</h2>
