@@ -6,20 +6,80 @@ As I install CasaOS in the SSD (via the old LG Laptop) of the upcoming new secon
   <p>Pi-hole is a free, open-source DNS sinkhole that blocks advertisements, trackers, and malicious domains across an entire home network without needing ad-blocking software on individual devices.</p>
 
 
-<h2>What is Code Server?</h2>
-  <pre><code>apt-cache policy docker-ce</code></pre>
+<h2>What is Code-Server?</h2>
+  <p>code-server is an open-source project by Coder that runs Microsoft’s Visual Studio Code (VS Code) on a remote server and makes it accessible through a standard web browser</p>
 
-You will see a list of versions. Copy the exact version string (e.g., 5:25.0.5-1debian.12bookworm) of the version you want to downgrade to.
-Example snippet string:
-5:28.3.2<s>debian.12</s>bookworm /last known running
+<h2>Deep Dive</h2>
+<ul>
+  Code Server
+    <pre><code>
+        Web UI Port :8080  
+        Port Host :8080
+        Port Container :8443
+    </code></pre>
+
+  Pi-hole
+    <pre><code>
+        Web UI Port :8080  
+        Port Host :8080
+        Port Container :80
+    </code></pre>
+  </ul>
+
+Right out of the bat there is indeed a conflict
+
+
+<h2>Fix</h2>
+<ul>
+  <li>Uninstall Pi-hole. On the dashboard, find the <b>+</b> sign, and select <b>Install a customized app</b></li>
+  <li>Hover to the Import next to <b>X or exit button</b></li>
+  <li>Paste the YAML bellow (if you've done a fresh download of Pi-hole like I did) then select submit
+    <pre><code>
+version: "3"
+
+services:
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "67:67/udp" # Only needed if you use Pi-hole as a DHCP server
+      - "8800:80/tcp" # Maps CasaOS host port 8800 to Pi-hole web port 80
+    environment:
+      TZ: 'UTC' # Change this to your timezone (e.g., 'America/New_York')
+      WEBPASSWORD: 'your_secure_password_here' # Change this to your desired login password
+      FTLCONF_LOCAL_IPV4: '0.0.0.0'
+    # Volumes store your data so it isn't lost when the container restarts
+    volumes:
+      - '/etc/casaos/pihole/etc-pihole:/etc/pihole'
+      - '/etc/casaos/pihole/etc-dnsmasq.d:/etc/dnsmasq.d'
+    restart: unless-stopped
+    </code></pre>
+  </li>
+  <li>https://www.reddit.com/r/pihole/comments/1dobl9v/so_what_exactly_is_the_point_of_a_pihole_i/</li>
+  <li>https://github.com/coder/code-server</li>
+  <li>https://coder.com/blog/exploring-code-server-and-coder-unleashing-the-power-of-web-based-development-en</li>
+  <li>https://www.youtube.com/watch?v=_jV2n_fbRxU</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
 
 <h2>References</h2>
 <ul>
   <li>https://pi-hole.net/</li>
   <li>https://www.reddit.com/r/pihole/comments/1dobl9v/so_what_exactly_is_the_point_of_a_pihole_i/</li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>https://github.com/coder/code-server</li>
+  <li>https://coder.com/blog/exploring-code-server-and-coder-unleashing-the-power-of-web-based-development-en</li>
+  <li>https://www.youtube.com/watch?v=_jV2n_fbRxU</li>
   <li></li>
   <li></li>
   <li></li>
