@@ -31,7 +31,7 @@ Right out of the bat there is indeed a conflict
 
 <h2>Fix</h2>
 <ul>
-  <li>Uninstall Pi-hole. On the dashboard, find the <b>+</b> sign, and select <b>Install a customized app</b></li>
+  <li>First, uninstall Pi-hole. On the dashboard, find the <b>+</b> sign, and select <b>Install a customized app</b></li>
   <li>Hover to the Import next to <b>X or exit button</b></li>
   <li>Paste the YAML bellow (if you've done a fresh download of Pi-hole like I did) then select submit
     <pre><code>
@@ -57,21 +57,28 @@ services:
     restart: unless-stopped
     </code></pre>
   </li>
-  <li>https://www.reddit.com/r/pihole/comments/1dobl9v/so_what_exactly_is_the_point_of_a_pihole_i/</li>
-  <li>https://github.com/coder/code-server</li>
-  <li>https://coder.com/blog/exploring-code-server-and-coder-unleashing-the-power-of-web-based-development-en</li>
-  <li>https://www.youtube.com/watch?v=_jV2n_fbRxU</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
+  <li>Go to the settings of the container/app</li>
+  <li>On the Web UI section, enter the port value :8800 (or any port that isn't being used, in my case 8800 isn't being used)</li>
+  <li>Below it. Set the Network mode from <b>brdige</b> to <b>host</b> (Since our device won't be able to point to it when set to bridge)</li>
+  <li>On the Environment Variable, click add</li>
+  <li>Then add the followng
+    <pre><code>
+    Key: WEB_PORT
+    Value: 8800
+      <br>
+    (Below is optional if adding the one above won't load the Web UI dashboard of Pi-hole)
+      <br>
+    Key: FTLCONF_webserver_port
+    Value: 8800 
+    </code></pre>  
+  </li>
+  <li>Toggle Apply and it would restart</li>
+  <li>Once finish, viola! No more conflict!</li>
+
+
+<h2>Note</h2>
+<p>Milage may vary</p>
+
 
 <h2>References</h2>
 <ul>
