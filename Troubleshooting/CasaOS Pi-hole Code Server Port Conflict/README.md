@@ -87,14 +87,4 @@ services:
   <li>https://github.com/coder/code-server</li>
   <li>https://coder.com/blog/exploring-code-server-and-coder-unleashing-the-power-of-web-based-development-en</li>
   <li>https://www.youtube.com/watch?v=_jV2n_fbRxU</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
 </ul>
