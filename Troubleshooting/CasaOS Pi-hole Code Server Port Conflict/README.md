@@ -1,5 +1,5 @@
 # CasaOS Pi-hole Code Server Port Conflict
-As I install CasaOS in the SSD (via the old LG Laptop) of the upcoming new secondary server that I'm waiting to arrive. I stumbled upon a problem where the Pi-hole and Code Server Ports have conflict with one another. Which was frustrating but luckily the trusty AI chatbot <b>Google Gemini</b> helped me resolved it.
+As I install CasaOS in the SSD (via the old LG Laptop) of the upcoming new secondary server that I'm waiting to arrive. I stumbled upon a problem where the Pi-hole and Code Server Ports have conflict with one another, which was frustrating. But luckily the AI chatbot <b>Google Gemini</b> helped me resolved it.
 
 
 <h2>What is Pi-hole?</h2>
