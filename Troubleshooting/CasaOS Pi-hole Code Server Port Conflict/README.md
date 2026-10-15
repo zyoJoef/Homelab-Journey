@@ -89,5 +89,6 @@ services:
   <li>https://privacyinternational.org/guide-step/4341/raspberry-pi-setup-and-run-pi-hole</li>
   <li>https://github.com/coder/code-server</li>
   <li>https://coder.com/blog/exploring-code-server-and-coder-unleashing-the-power-of-web-based-development-en</li>
+  <li>https://marketplace.digitalocean.com/apps/vs-code-server</li>
   <li>https://www.youtube.com/watch?v=_jV2n_fbRxU</li>
 </ul>
