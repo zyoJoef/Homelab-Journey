@@ -85,6 +85,8 @@ services:
 <ul>
   <li>https://pi-hole.net/</li>
   <li>https://www.reddit.com/r/pihole/comments/1dobl9v/so_what_exactly_is_the_point_of_a_pihole_i/</li>
+  <li>https://medium.com/@light.pen8923/pi-hole-what-is-it-and-why-you-might-want-to-use-it-5e76feb8efdc</li>
+  <li>https://privacyinternational.org/guide-step/4341/raspberry-pi-setup-and-run-pi-hole</li>
   <li>https://github.com/coder/code-server</li>
   <li>https://coder.com/blog/exploring-code-server-and-coder-unleashing-the-power-of-web-based-development-en</li>
   <li>https://www.youtube.com/watch?v=_jV2n_fbRxU</li>
