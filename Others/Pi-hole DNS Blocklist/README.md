@@ -1,5 +1,5 @@
 # Pi-hole DNS Blocklist
-A repository consisting of my blocklist used for the Pi-hole adblocker
+A repository consisting of blocklist I used for the Pi-hole adblocker
 
 <ul>
   <li>https://github.com/StevenBlack/hosts</li>
