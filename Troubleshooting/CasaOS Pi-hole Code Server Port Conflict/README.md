@@ -7,7 +7,7 @@ As I install CasaOS in the SSD (via the old LG Laptop) of the upcoming new secon
 
 
 <h2>What is Code-Server?</h2>
-  <p>code-server is an open-source project by Coder that runs Microsoft’s Visual Studio Code (VS Code) on a remote server and makes it accessible through a standard web browser</p>
+  <p>code-server is an open-source project by Coder that runs Microsoft’s Visual Studio Code (VS Code) on a remote server and makes it accessible through a standard web browser.</p>
 
 <h2>Deep Dive Into the Problem</h2>
 <ul>
@@ -27,8 +27,7 @@ As I install CasaOS in the SSD (via the old LG Laptop) of the upcoming new secon
     </code></pre>
   </ul>
 
-Right out of the bat there is indeed a conflict in the Port 8080
-
+Right out of the bat there is indeed a conflict in the Port :8080
 
 <h2>Fix</h2>
 <ul>
@@ -77,7 +76,7 @@ services:
   <li>Once finish, viola! No more conflict!</li>
 
 
-<h2>Note</h2>
+<h2>Important Note</h2>
 <p>Milage may vary</p>
 
 
