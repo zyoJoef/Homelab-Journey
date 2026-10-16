@@ -42,18 +42,19 @@ services:
     container_name: pihole
     image: pihole/pihole:latest
     ports:
-      - "53:53/tcp"
-      - "53:53/udp"
-      - "67:67/udp" # Only needed if you use Pi-hole as a DHCP server
-      - "8800:80/tcp" # Maps CasaOS host port 8800 to Pi-hole web port 80
+      - "8800:80/tcp"      # Web Interface Port mapped to 8800
+      - "53:53/tcp"        # DNS Port (TCP)
+      - "53:53/udp"        # DNS Port (UDP)
+      - "67:67/udp"        # DHCP Port (Only needed if Pi-hole is your DHCP server)
     environment:
-      TZ: 'UTC' # Change this to your timezone (e.g., 'America/New_York')
-      WEBPASSWORD: 'your_secure_password_here' # Change this to your desired login password
-      FTLCONF_LOCAL_IPV4: '0.0.0.0'
-    # Volumes store your data so it isn't lost when the container restarts
+      TZ: "Asia/Manila"
+      WEBPASSWORD: "SetYourSecurePasswordHere" # Change this to your desired admin password
+    # Volumes store your data persistently so it isn't lost on restart
     volumes:
-      - '/etc/casaos/pihole/etc-pihole:/etc/pihole'
-      - '/etc/casaos/pihole/etc-dnsmasq.d:/etc/dnsmasq.d'
+      - "/DATA/AppData/pihole/etc-pihole:/etc/pihole"
+      - "/DATA/AppData/pihole/etc-dnsmasq.d:/etc/dnsmasq.d"
+    cap_add:
+      - NET_ADMIN # Required if you want to use Pi-hole as a DHCP server
     restart: unless-stopped
     </code></pre>
   </li>
