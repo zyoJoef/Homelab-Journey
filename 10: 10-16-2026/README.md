@@ -17,7 +17,7 @@
 
 <h2>Why did I brought it in the first place?</h2>
 <p>
-    I wanted to have a dedicated/separate server for development and for testing various things that is separate from my main media/file server. And I know it would make more sense if I would install something like Proxmox into it, but I still find the simplicity of Debian with CasaOS runs perfectly for my case.
+    I wanted to have a dedicated/separate server for development and for testing various things that is separate from my main media/file server. And I know it would make more sense if I would install something like Proxmox into it, but I still find the simplicity of Debian with CasaOS runs perfectly for my case. Also, since the included processor, is only 2 Core 4 Thread one, I didn't want it to do some heavy tasking that would lead to bottleneck, hence why there is only a few services running as of the writing of this README file.
 </p>
 
 <h2>What are the services that you are running into it?</h2>
