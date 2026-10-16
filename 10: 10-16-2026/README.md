@@ -41,4 +41,6 @@
     <li>https://www.reddit.com/r/Lenovo/comments/qo2yoi/thinkcentre_m710q_keeps_dropping_wired_ethernet/</li>
     <li>https://www.reddit.com/r/homelab/comments/1ssa5bb/lenovo_thinkcentre_m710q_tiny_intel_i219v_2_nic/</li>
     <li>https://www.reddit.com/r/Ubuntu/comments/1ssa8kz/lenovo_thinkcentre_m710q_tiny_intel_i219v_2_nic/</li>
+    <li>https://www.youtube.com/watch?v=FnFtWsZ8IP0</li>
+    <li>https://docs.pi-hole.net/guides/dns/unbound/</li>
 </ul>
