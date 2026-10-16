@@ -39,7 +39,7 @@
     Since I've run Pi-hole together with Unbound as my Recursive DNS Server, upon copy pasting the path file from the Pi-hole unbound documentation gave me an error:
         <pre><code>/etc/unbound/conf.d/pi-hole.conf</code></pre> 
         <pre><code>Error writing /etc/unbound/conf.d/pi-hole.conf: No such file or directory</code></pre>
-    I then turned to Google's AI, Gemini for the fix which worked for me:
+    I then turned to Google's AI; Gemini for the fix, which worked for me:
         <pre><code>sudo nano /etc/unbound/unbound.conf.d/pi-hole.conf</code></pre>
 </p>
 
