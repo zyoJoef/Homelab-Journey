@@ -1,30 +1,58 @@
 # 10/16/2026
 
 <p>
-  Since I've been constantly connecting and disconnecting devices from the single ethernet cable on the other side of my table, I was worried about the possible wear & tear it could introduce to it, and sometimes I felt the need for connecting more than 1 device from it. Although I could just connect it directly from my main switch, but then it creates a messy cable dangling around. I don't want to add another long cable run, as it's not feasible and would pile up. Luckily I saw the <b>TP-Link TL-SG105E Easy Smart Unmanaged Switch</b> go on sale from it's usual price, so I pull the trigger on it. It's so small and compact, it actually tucks away nicely and is almost comparable with my previous TP-Link TL-SG105 5-port switch that I've already sold.
+    After months of usage with my LG Laptop server I decided to finally let go of it's role and give it to a new machine that I got for a good price, hence why I bought a <b>Lenovo M900 Tiny mini pc</b>. It originally came with a 500GB HDD, but thankfully it supports M.2 SATA SSD so all I had to do is transfer the SSD from the laptop and it worked right out of the box without needing reinstallation nor reconfigure everything from scratch. I then attach the primary 2TB HDD inside (since it fit both 1 M.2 and SATA drive), everything went flawless as if nothing has changed (well except probably for it's IP and MAC Address). Also, the ThinkCentre red LED light indicator on the front doesn't appear to work when I received it (the seller have two of these but due to budget constraint I can only buy one and let the other one go).
 </p>
-
 
 <h2>Specification:</h2>
 <ul>
-  <li>TP-Link TL-SG105E Easy Smart 5-port Gigabit Unmanaged Switch</li>
-  <li>Speed: 10/100/1000</li>
-  <li>Web-Based User Interface</li>
+  <li>Model : Lenovo M900 Tiny</li>
+  <li>CPU : Intel Core i5-6400T 2.80GHz</li>
+  <li>Graphic Chipset : Intel HD Graphics 530 2.60GHz </li>
+  <li>OS : Windows 10 Pro (64-bit)</li>
+  <li>Memory : Samsung 8GB DDR4 RAM</li>
+  <li>Disk : Western Digital (WD) 2.5" 500GB SATA HDD</li>
+  <li>I/O Ports : VGA, DisplayPort, Headset port, 6 USB ports, and LAN</li>
 </ul>
 
+<a href="https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M700_Tiny/ThinkCentre_M700_Tiny_Spec.PDF">Lenovo ThinkCentre M700 Tiny Spec PDF</a>
 
-<h2>What do you use it for?</h2>
+<h2>Why did I brought it in the first place?</h2>
 <p>
-  I'm mostly using it so that I don't have to plug other devices into my main switch, and it is also where I would connect things for experiment, testing and/or for temporary usage only, such as plugging a separate laptop, network device etc.
+    After noticing that the laptop gets really hot easily, I was concern about using it from extended periods of time, where I also read somewhere that using a laptop for homelab isn't advisable too since they're not primarily designed to run 24/7, and you get the risk of the spicy pillow too! Moreover, the new machine still is running the same Debian + CasaOS setup, just enclosed on a new machine that is more compact (since the screen, keyboard, touchpad, and battery are out of the equation). 
 </p>
 
+<p>
+    I went for this Mini PC instead of buying a proper System Unit or computer, since they're really quiet, power efficient, and somewhat easier to maintain as compared to their more capable or expandable yet big computer tower or rack-mount server.
+</p>
+
+<h2>What happened to the laptop?</h2>
+<p>
+    Well it sat on the shelf again being unused, which I'm now just using for experimental stuff (such as trying different Linux distro, Trying DietPi + PiHole, etc.)
+</p>
+
+<h2>What are the services that you are running into it?</h2>
+<p>The following are the services that I'm running:</p>
+<ul>
+  <li>Jellyfin</li>
+  <li>Swing Music</li>
+  <li>Tailscale</li>
+  <li>Virtual Machine Manage</li>
+  <li>Downtify</li>
+  <li>Memos</li>
+  <li>Crafty</li>
+  <li>Portainer</li>
+  <li>OpenSSH</li>
+</ul>
 
 <h2>Note</h2>
 <p>
-  Just like in the Youtube Video, you'll probably need to use a software like <a href="https://www.advanced-ip-scanner.com/">Advanced IP Scanner</a> to be able to identify the IP Address of the switch (though it may vary), since the one I have were assigned to a different IP Address than of what was indicated in the manual
+    On the later part I've actually attached that secondary 2TB HDD back, but this time with an external USB Disk Enclosure, since there's no more space left inside for another one, and so that I could do a RAID 1 Setup again. 
 </p>
 
-
-<h2>Reference:</h2>
-  <a href="https://www.youtube.com/watch?v=yD3mr0PkxP8">TP Link SG105E Gigabit Switch Review: Is It Worth Buying? | Leo's Tech Corner</a>
-
+<p>
+    I know the way I placed the server in the picture was wrong because they should be somewhere in/at the bottom instead of being in the middle, which is why redid it after doing some researching about putting the heavier equipments on the bottom and the lighter one obviously in the middle or at the top (top-down approach). 
+</p>
+<p>
+   Also, a few months ago I did try to run Ollama local LLM on my LG Laptop server, but then it really showed it's hardware limitation and the bare minimum needed in order to run one. Hence why I didn't bother installing Local LLM, especially with the current price of RAM and Disk nowadays being all over the roof.
+</p>
