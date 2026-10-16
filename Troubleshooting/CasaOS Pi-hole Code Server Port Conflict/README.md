@@ -67,7 +67,7 @@ services:
     Key: WEB_PORT
     Value: 8800
       <br>
-    (Below is optional if adding the one above won't load the Web UI dashboard of Pi-hole)
+    (Below is optional if adding the one above won't load the Pi-hole Web UI dashboard)
       <br>
     Key: FTLCONF_webserver_port
     Value: 8800 
@@ -78,7 +78,11 @@ services:
 
 
 <h2>Important Note</h2>
-<p>Milage may vary</p>
+  <p>Milage may vary</p>
+  <p>
+    You may also need to go to the terminal of the container/app or the web interface if you forgot your password
+        <pre><code>sudo pihole setpassword</code></pre>  
+  </p>
 
 
 <h2>References</h2>
@@ -91,4 +95,5 @@ services:
   <li>https://coder.com/blog/exploring-code-server-and-coder-unleashing-the-power-of-web-based-development-en</li>
   <li>https://marketplace.digitalocean.com/apps/vs-code-server</li>
   <li>https://www.youtube.com/watch?v=_jV2n_fbRxU</li>
+  <li>https://www.reddit.com/r/CasaOS/comments/1k2yqni/casaos_pihole_cant_get_past_the_password/</li>
 </ul>
