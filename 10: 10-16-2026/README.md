@@ -31,17 +31,14 @@
 
 <h2>wait there are issues?</h2>
 <p>
-    Yes, there is! At first when I tried it out on my first two set of 2x 4GB RAM, it gave me 2 short beeps followed by 1 long beep, which signifies a memory is not detected. Tried swapping both sticks, and turns out it was one of the stick were broken (that I got from my friend's broken Lenovo IdeaPad laptop), while the other one that I salvaged from my old broken Lenovo IdeaPad 330 laptop works just as fine. I tried out my second set of 2x 4GB RAM which is from my Acer Aspire 3 and my younger sister's HP laptop, which works right out of the box without any problem. I thought the problem was finished, but then I tried connecting it to the LAN cable. It seems like this particular model has a quirk of flaw with the ethernet not working on Linux (since it works just as fine in Windows), tried resolving it for hours; from flashing the update via USB and UEFI Shell to Updating the BIOS, none of which resolved the problem, so at the moment it is currently running of Wi-Fi only, and I am planning to buy an USB-to-Ethernet Adapter, even if it is a bit sketchy for my setup.
+    Yes, there is! At first when I tried it out on my first two set of 2x 4GB RAM, it gave me 2 short beeps followed by 1 long beep, which signifies a memory is not detected. Tried swapping both sticks, and turns out it was one of the stick were broken (that I got from my friend's broken Lenovo IdeaPad laptop), while the other one that I salvaged from my old broken Lenovo IdeaPad 330 laptop works just as fine. I tried out my second set of 2x 4GB RAM which is from my Acer Aspire 3 and my younger sister's HP laptop, which works right out of the box without any problem. I thought the problem was finished, but then I tried connecting it to the LAN cable. It seems like this particular model has a quirk of flaw with the ethernet not working on Linux (since it works just as fine in Windows), tried resolving it for hours; from flashing the update via USB and UEFI Shell to Updating the BIOS, none of which resolved the problem, at the moment it is currently running on Wi-Fi only and I am planning to buy an USB-to-Ethernet Adapter for it, even if it is a bit sketchy for my setup.
 </p>
 
-<h2>Note</h2>
-<p>
-    On the later part I've actually attached that secondary 2TB HDD back, but this time with an external USB Disk Enclosure, since there's no more space left inside for another one, and so that I could do a RAID 1 Setup again. 
-</p>
-
-<p>
-    I know the way I placed the server in the picture was wrong because they should be somewhere in/at the bottom instead of being in the middle, which is why redid it after doing some researching about putting the heavier equipments on the bottom and the lighter one obviously in the middle or at the top (top-down approach). 
-</p>
-<p>
-   Also, a few months ago I did try to run Ollama local LLM on my LG Laptop server, but then it really showed it's hardware limitation and the bare minimum needed in order to run one. Hence why I didn't bother installing Local LLM, especially with the current price of RAM and Disk nowadays being all over the roof.
-</p>
+<h2>References</h2>
+<ul>
+    <li>https://support.lenovo.com/hk/en/solutions/ht505216-post-beep-symptoms-thinkcentre</li>
+    <li>https://www.youtube.com/watch?v=6YbG5UOvrvw</li>
+    <li>https://www.reddit.com/r/Lenovo/comments/qo2yoi/thinkcentre_m710q_keeps_dropping_wired_ethernet/</li>
+    <li>https://www.reddit.com/r/homelab/comments/1ssa5bb/lenovo_thinkcentre_m710q_tiny_intel_i219v_2_nic/</li>
+    <li>https://www.reddit.com/r/Ubuntu/comments/1ssa8kz/lenovo_thinkcentre_m710q_tiny_intel_i219v_2_nic/</li>
+</ul>
