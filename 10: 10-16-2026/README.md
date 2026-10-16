@@ -7,7 +7,7 @@
 <h2>Specification:</h2>
 <ul>
   <li>Model : Lenovo M710q Tiny</li>
-  <li>CPU : Intel Core i5-6400T 2.80GHz</li>
+  <li>CPU : Intel Core i3-7100T 3.40GHz</li>
   <li>Memory : 8GB DDR4 RAM (2x 4GB)</li>
   <li>Disk : Toshiba 2.5" 256GB SATA SSD</li>
   <li>I/O Ports : 2 DisplayPort, Headset port, 6 USB ports, Wi-Fi, and LAN</li>
@@ -17,30 +17,16 @@
 
 <h2>Why did I brought it in the first place?</h2>
 <p>
-    After noticing that the laptop gets really hot easily, I was concern about using it from extended periods of time, where I also read somewhere that using a laptop for homelab isn't advisable too since they're not primarily designed to run 24/7, and you get the risk of the spicy pillow too! Moreover, the new machine still is running the same Debian + CasaOS setup, just enclosed on a new machine that is more compact (since the screen, keyboard, touchpad, and battery are out of the equation). 
-</p>
-
-<p>
-    I went for this Mini PC instead of buying a proper System Unit or computer, since they're really quiet, power efficient, and somewhat easier to maintain as compared to their more capable or expandable yet big computer tower or rack-mount server.
-</p>
-
-<h2>What happened to the laptop?</h2>
-<p>
-    Well it sat on the shelf again being unused, which I'm now just using for experimental stuff (such as trying different Linux distro, Trying DietPi + PiHole, etc.)
+    I wanted to have a dedicated/separate server for development and for testing various things that is separate from my main media/file server. And I know it would make more sense if I would install something like Proxmox into it, but I still find the simplicity of Debian with CasaOS runs perfectly for my case.
 </p>
 
 <h2>What are the services that you are running into it?</h2>
 <p>The following are the services that I'm running:</p>
 <ul>
-  <li>Jellyfin</li>
-  <li>Swing Music</li>
+  <li>Gitea</li>
+  <li>Code Server</li>
+  <li>Pi-hole</li>
   <li>Tailscale</li>
-  <li>Virtual Machine Manage</li>
-  <li>Downtify</li>
-  <li>Memos</li>
-  <li>Crafty</li>
-  <li>Portainer</li>
-  <li>OpenSSH</li>
 </ul>
 
 <h2>Note</h2>
