@@ -12,8 +12,10 @@
 
 <h2>How to use Custom DNS on Tailscale??</h2>
 <p>
-  Tailscale is a zero-configuration, identity-based mesh virtual private network (VPN) built on top of the WireGuard protocol. It creates a secure, encrypted private network—known as a tailnet—that connects your devices, servers, and cloud infrastructure directly to each other, no matter where they are located.
+  On your admin panel, hover into DNS, and go to global nameserver. Select add nameserver, click Custom, and then input your desired IP Address
 </p>
+<img width="256" height="239" alt="image" src="https://github.com/user-attachments/assets/cf26ebf3-6e2c-4d16-96fe-7d64d6d25f5e" />
+
 
 <h2>References</h2>
 <ul>
