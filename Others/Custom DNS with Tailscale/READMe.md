@@ -11,11 +11,15 @@
 </p>
 
 <h2>How to use Custom DNS on Tailscale??</h2>
-<p>
-  On your admin consol, hover into DNS, and go to global nameserver. Select add nameserver, click Custom, and then input your desired IP Address
-</p>
-  <img src="https://github.com/user-attachments/assets/fbfd3952-0862-4941-a822-c66de97dfa39" alt="image" style="width:30%">
+  <p>On the admin console, look into the Network (located in the left-side), and below it you'll find DNS. </p>
+    <img src="https://github.com/user-attachments/assets/fbfd3952-0862-4941-a822-c66de97dfa39" alt="image" style="width:20%">
+  <p>On DNS, scroll down to the Nameservers section</p>
+    <img src="https://github.com/user-attachments/assets/0413767f-6374-4897-8f5d-3c6e15fcfd2e" alt="image" style="width:50%">
+    <img src="https://github.com/user-attachments/assets/ab8228cc-33f4-4132-b5f9-5f9d6af36d98" alt="image" style="width:50%">
 
+ <p>Select Add Nameserver, click Custom, and then input your desired IP Address</p>
+
+<img width="268" height="284" alt="image" src="https://github.com/user-attachments/assets/55123e8f-39f8-4c5a-a18a-cb937e2790ee" />
 
 <h2>References</h2>
 <ul>
