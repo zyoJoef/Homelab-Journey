@@ -7,7 +7,12 @@
 
 <h2>What is Tailscale?</h2>
 <p>
-  
+  Tailscale is a zero-configuration, identity-based mesh virtual private network (VPN) built on top of the WireGuard protocol. It creates a secure, encrypted private network—known as a tailnet—that connects your devices, servers, and cloud infrastructure directly to each other, no matter where they are located.
+</p>
+
+<h2>How to use Custom DNS on Tailscale??</h2>
+<p>
+  Tailscale is a zero-configuration, identity-based mesh virtual private network (VPN) built on top of the WireGuard protocol. It creates a secure, encrypted private network—known as a tailnet—that connects your devices, servers, and cloud infrastructure directly to each other, no matter where they are located.
 </p>
 
 <h2>References</h2>
@@ -15,5 +20,7 @@
   <li>https://tailscale.com/docs/reference/dns-in-tailscale</li>
   <li>https://www.fortinet.com/resources/cyberglossary/what-is-dns</li>
   <li>https://aws.amazon.com/route53/what-is-dns/</li>
-  <li></li>
+  <li>https://tailscale.com/docs/concepts/what-is-tailscale</li>
+  <li><https://dev.to/hugovalters/what-is-tailscale-the-vpn-that-doesnt-suck-3b66/li>
+  <li>https://www.youtube.com/watch?v=GVPhBSmMuq8</li>
 </ul>
