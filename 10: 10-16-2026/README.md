@@ -23,10 +23,11 @@
 <h2>What are the services that you are running into it?</h2>
 <p>The following are the services that I'm running:</p>
 <ul>
-  <li>Gitea</li>
   <li>Code Server</li>
+  <li>Gitea</li>
   <li>Pi-hole</li>
   <li>Tailscale</li>
+  <li>Virtual Machine Manager</li>  
 </ul>
 
 <h2>There are issues?</h2>
