@@ -53,6 +53,10 @@
         <pre><code>allow-hotplug &lt;interface_name&gt;
 iface &lt;interface_name&gt; inet dhcp</code></pre>
         <p>(Or use inet static with address, netmask, and gateway lines if required).</p>
+          Or what I used :
+        <pre><code># USB to Ethernet Adapter
+auto &lt;interface_name&gt;
+iface &lt;interface_name&gt; inet dhcp</code></pre>        
       </li>
       <li>
         <p>Save and close the file, then restart the networking service:</p>
