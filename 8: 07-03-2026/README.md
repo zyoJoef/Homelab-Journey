@@ -36,7 +36,7 @@
 
 <h2>Update: 07/11/2026</h2>
 <p>
-    I have gotten rid of this thin client mini pc from my setup, since I consistently kept getting a <i>curl error 28: Resolving timed out after 3000 milliseconds</i> from it (although I think it might be my fault for not assigning a static IP Address into it from our ISP router).
+    I have gotten rid of this thin client mini pc from my setup, since I consistently kept getting a <i>curl error 28: Resolving timed out after 3000 milliseconds</i> from it (although I think it might be my fault for not assigning a static IP Address into it from our ISP router). Moreover, it also gets hot really quick even under load.
 </p>
 
 <h2>References:</h2>
