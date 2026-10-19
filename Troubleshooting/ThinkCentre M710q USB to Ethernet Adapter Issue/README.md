@@ -64,6 +64,7 @@ iface &lt;interface_name&gt; inet dhcp</code></pre>
 
 <h2>References</h2>
 <ul>
-  <li><a href="https://www.youtube.com/watch?v=R8miC0--RzY">https://www.youtube.com/watch?v=R8miC0--RzY</a></li>
-  <li><a href="https://github.com/IceWhaleTech/CasaOS/issues/2387">https://github.com/IceWhaleTech/CasaOS/issues/2387</a></li>
+  <li><a href="https://serverspace.us/support/help/configuring-network-adapter-in-ubuntu-or-debian/"</li>
+  <li><a href="https://mirrors.bieringer.de/Linux+IPv6-HOWTO/x1018.html"</li>
+  <li>https://forums.debian.net/app.php/anubis/api/make_challenge?redir=https%3A%2F%2Fforums.debian.net%2Fviewtopic.php%3Ft%3D157146</li>
 </ul>
