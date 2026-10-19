@@ -1,16 +1,17 @@
 <h1>Lenovo ThinkCentre M710q USB to Ethernet Adapter Issue</h1>
-<p>Following the issue with the internal NIC or Ethernet of my recently bought <b>Lenovo ThinkCentre M710q Mini PC</b> on debian which forced me to temporarily run it on Wi-Fi, 
+  <p>
+    Following the issue with the internal NIC or Ethernet of my recently bought <b>Lenovo ThinkCentre M710q Mini PC</b> on debian which forced me to temporarily run it on Wi-Fi, 
   but then made me firm with using it with a USB to Ethernet Adapter, which I know seems to be of an unreliable solution, but it left me no choice.
-</p>
+  </p>
 
 <h2>What model?</h2>
 <p>Just a generic Jasoz brand USB 3.0 to Ethernet Gigabit Adapter</p>
 
 <h2>The fix</h2>
-<p>
-  Though it works right out of the bat when tried with other devices. However, when I hooked it up to my M710q Mini PC it has issues, the status shows up as down. But I just need 
-  to do the following:
-</p>
+  <p>
+    Though it works right out of the bat when tried with other devices. However, when I hooked it up to my M710q Mini PC it has issues, the status shows up as down. But I just need 
+    to do the following:
+  </p>
 <ol>
   <li>
     <h3>Find the Interface Name</h3>
@@ -64,7 +65,8 @@ iface &lt;interface_name&gt; inet dhcp</code></pre>
 
 <h2>References</h2>
 <ul>
-  <li><a href="https://serverspace.us/support/help/configuring-network-adapter-in-ubuntu-or-debian/"</li>
-  <li><a href="https://mirrors.bieringer.de/Linux+IPv6-HOWTO/x1018.html"</li>
+  <li>https://serverspace.us/support/help/configuring-network-adapter-in-ubuntu-or-debian/</li>
+  <li>https://mirrors.bieringer.de/Linux+IPv6-HOWTO/x1018.html</li>
   <li>https://forums.debian.net/app.php/anubis/api/make_challenge?redir=https%3A%2F%2Fforums.debian.net%2Fviewtopic.php%3Ft%3D157146</li>
+  <li>https://wiki.debian.org/NetworkConfiguration?pow_referer=https%3A%2F%2Fwww.google.com%2F</li>
 </ul>
