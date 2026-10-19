@@ -35,6 +35,11 @@
     Yes, there is! At first when I tried it out on my first two set of 2x 4GB RAM, it gave me 2 short beeps followed by 1 long beep, which signifies a memory is not detected. Tried swapping both sticks, and turns out it was one of the stick were broken (that I got from my friend's broken Lenovo IdeaPad laptop), while the other one that I salvaged from my old broken Lenovo IdeaPad 330 laptop works just as fine. I tried out my second set of 2x 4GB RAM which is from my Acer Aspire 3 and my younger sister's HP laptop, which works right out of the box without any problem. I thought the problem was finished, but then I tried connecting it to the LAN cable. It seems like this particular model has a quirk of flaw with the ethernet not working on Linux (since it works just as fine in Windows), tried resolving it for hours; from flashing the update via USB and UEFI Shell to Updating the BIOS, none of which resolved the problem, at the moment it is currently running on Wi-Fi only and I am planning to buy an USB-to-Ethernet Adapter for it, even if it is a bit sketchy for my setup.
 </p>
 
+<h2>Why the Pi-hole helped with the ISP DNS issues?</h2>
+<p>
+    Since the deployment of this new server into my homelab, it significantly improved the constant DNS issues we keep having from the ISP. Because when we using the default ISP DNS, it would frequently have problems loading websites from time to time. Whereas now, it only has a slight issue upon turning on or starting the new server, and becomes smooth sailing from there, together with the ads being reduced in some ad pestered websites.
+</p>
+
 <h2>Note for setting up Pi-hole with Unbound as Recursive DNS Server</h2>
 <p>
     Since I've run Pi-hole together with Unbound as my Recursive DNS Server, upon copy pasting the path file from the Pi-hole unbound documentation gave me an error:
