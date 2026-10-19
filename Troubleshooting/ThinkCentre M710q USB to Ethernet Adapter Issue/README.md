@@ -3,7 +3,7 @@
   but then made me firm with using it with a USB to Ethernet Adapter, which I know seems to be of an unreliable solution, but it left me no choice.
 </p>
 
-<h2>what model?</h2>
+<h2>What model?</h2>
   <p>Just a generic Jasoz brand USB 3.0 to Ethernet Gigabit Adapter</p>
 
 <h2>The fix</h2>
@@ -12,7 +12,7 @@
   to do the following:
   </p>
   <ol>
-      <li>Find the Interface Name
+      <li>Find the Interface Name</li>
           <br>
             Plug in the USB-to-Ethernet adapter and list the network interfaces to find its name (often starting with enx followed by its MAC address, or eth0, end0, etc.):
               <pre><code>ip link</code></pre>
@@ -24,7 +24,7 @@
               <pre><code>sudo ip link set dev <interface_name> up</code></pre>
             (Replace <interface_name> with your actual adapter name, such as enx00e04c07002e).
       </li>
-      <li>Assign an IP Address (for me this was optional, since it was automatically assigned in my case)
+      <li>Assign an IP Address (for me this was optional, since it was automatically assigned in my case)</li>
           <br>
             <ul>
               <li>Option A: Request an IP via DHCP (Dynamic):</li>
@@ -34,13 +34,21 @@
                 If you need a manual IP address:
                   <pre><code>sudo ip addr add 192.168.1.50/24 dev <interface_name></code></pre>
             </ul>
-      <li>Make the Configuration Permanent
+      <li>Make the Configuration Permanent</li>
           <br>
-            Use the modern ip command to turn the interface up:
-              <pre><code>sudo ip link set dev <interface_name> up</code></pre>
-            (Replace <interface_name> with your actual adapter name, such as enx00e04c07002e).
-      </li>
-      </li>
+            To ensure the interface comes up automatically on reboot, add it to /etc/network/interfaces:
+            <ol>
+              <li>Open the file with a text editor:</li>
+                  <pre><code>sudo nano /etc/network/interfaces</code></pre>
+              <li>Add the configuration for your adapter (replace <interface_name>):</li>
+                  <pre><code>
+                    allow-hotplug <interface_name>
+                    iface <interface_name> inet dhcp
+                  </code></pre>
+                    (Or use inet static with address, netmask, and gateway lines if required).
+              <li>Save and close the file, then restart the networking service:</li>
+                  <pre><code>sudo systemctl restart networking</pre>
+            </ol>
   </ol>
 
 
