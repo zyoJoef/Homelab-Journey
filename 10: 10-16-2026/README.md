@@ -32,7 +32,7 @@
 
 <h2>There are issues?</h2>
 <p>
-    Yes, there is! At first when I tried it out on my first two set of 2x 4GB RAM, it gave me 2 short beeps followed by 1 long beep, which signifies a memory is not detected. Tried swapping both sticks, and turns out it was one of the stick were broken (that I got from my friend's broken Lenovo IdeaPad laptop), while the other one that I salvaged from my old broken Lenovo IdeaPad 330 laptop works just as fine. I tried out my second set of 2x 4GB RAM which is from my Acer Aspire 3 and my younger sister's HP laptop, which works right out of the box without any problem. I thought the problem was finished, but then I tried connecting it to the LAN cable. It seems like this particular model has a quirk of flaw with the ethernet not working on Linux (since it works just as fine in Windows), tried resolving it for hours; from flashing the update via USB and UEFI Shell to Updating the BIOS, none of which resolved the problem, at the moment it is currently running on Wi-Fi only and I am planning to buy an USB-to-Ethernet Adapter for it, even if it is a bit sketchy for my setup.
+    Yes, there is! At first when I tried it out on my first two set of 2x 4GB RAM, it gave me 2 short beeps followed by 1 long beep, which signifies a memory is not detected. Tried swapping both sticks, and turns out it was one of the stick were broken (that I got from my friend's broken Lenovo IdeaPad laptop), while the other one that I salvaged from my old broken Lenovo IdeaPad 330 laptop works just as fine. I tried out my second set of 2x 4GB RAM which is from my Acer Aspire 3 and my younger sister's HP laptop, which works right out of the box without any problem. I thought the problem was finished, but then I tried connecting it to the LAN cable. It seems like this particular model has a quirk of flaw with the ethernet not working on Linux (since it works just as fine in Windows), tried resolving it for hours; from flashing the update via USB and UEFI Shell to Updating the BIOS, none of which resolved the problem, at the moment it is currently running on Wi-Fi only and I am planning to buy an USB to Ethernet Adapter for it, even if it is a bit sketchy for my setup.
 </p>
 
 <h2>Why the Pi-hole helped with the ISP DNS issues?</h2>
@@ -47,6 +47,11 @@
         <pre><code>Error writing /etc/unbound/conf.d/pi-hole.conf: No such file or directory</code></pre>
     I then turned to Google's AI; Gemini for the fix, which worked for me:
         <pre><code>sudo nano /etc/unbound/unbound.conf.d/pi-hole.conf</code></pre>
+</p>
+
+<h2>Update: 10/19/2026</h2>
+<p>
+    I finally got the USB to Ethernet Adapter for it, and I disabled in the BIOS the WLAN setting since it was running of Wi-Fi. But now I got the usb adapter for the network, it has more faster, stable and consistent connection now, and air variables are already out of equations (e.g., humidity, temperature), although I had to initialize and configure it first because it was in the DOWN state and won't mount permanently upon reboot.
 </p>
 
 <h2>References</h2>
