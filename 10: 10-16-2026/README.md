@@ -26,6 +26,7 @@
   <li>Code Server</li>
   <li>Gitea</li>
   <li>Pi-hole</li>
+  <li>Portainer</li>
   <li>Tailscale</li>
   <li>Virtual Machine Manager</li>  
 </ul>
