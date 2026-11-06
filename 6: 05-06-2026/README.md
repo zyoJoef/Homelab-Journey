@@ -50,6 +50,11 @@
     On the later part I've actually attached that secondary 2TB HDD back, but this time with an external USB Disk Enclosure, since there's no more space left inside for another one, and so that I could do a RAID 1 Setup again. 
 </p>
 
+<h2>Update: 11/17/2026</h2>
+<p>
+    On the later part I've actually attached that secondary 2TB HDD back, but this time with an external USB Disk Enclosure, since there's no more space left inside for another one, and so that I could do a RAID 1 Setup again. 
+</p>
+
 <p>
     I know the way I placed the server in the picture was wrong because they should be somewhere in/at the bottom instead of being in the middle, which is why redid it after doing some researching about putting the heavier equipments on the bottom and the lighter one obviously in the middle or at the top (top-down approach). 
 </p>
