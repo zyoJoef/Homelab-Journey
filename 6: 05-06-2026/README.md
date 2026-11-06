@@ -58,4 +58,4 @@
 </p>
 
 <h2>Update: 11/17/2026</h2>
-<p>I have already removed the GUI or the Gnome Desktop Environment, which was consuming unnecessary resources and space.  </p>
+<p>I have already removed the GUI or the Gnome Desktop Environment, which was consuming unnecessary resources.</p>
