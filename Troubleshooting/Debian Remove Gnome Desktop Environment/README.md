@@ -1,5 +1,5 @@
 # Debian Remove Gnome Desktop Environment
-Since the deployment of my very first home server (where I store all of my file/media) I haven't thought about fully running it headless, because I kept the desktop environment on it for troubleshooting and of alike, but today that will change. Since the Gnome desktop environment was taking up resources and space (I don't even use the other files that came along with GNOME).
+Since the deployment of my very first home server (where I store all of my file/media) I haven't thought about fully running it headless, because I kept the desktop environment on it for troubleshooting and of alike, but today that will change. Since the Gnome desktop environment was taking up resources and space (I don't even use the other files that came along with it).
 
 <h2>Steps</h2>
 <ol>
