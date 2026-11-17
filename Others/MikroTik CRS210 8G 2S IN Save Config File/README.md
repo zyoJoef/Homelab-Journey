@@ -20,6 +20,7 @@ You can export its complete switch and routing configuration directly to your Wi
         <li>Download to Windows 11. Click Files on the left-hand sidebar, find <pre><code>crs210-config.rsc</code></pre> and drag it directly onto your destination directory.</li>
       </ul>
     <br><br>
+  <li>
     <b>Alternative: One-Line Export via Windows 11 Terminal</b>
       <p>
         If SSH is enabled on your CRS210 and you already know its IP address, you can pull the configuration straight to your Windows 11 Desktop without opening WinBox:
@@ -30,6 +31,12 @@ You can export its complete switch and routing configuration directly to your Wi
       </ul>
   </li>
 </ol>
+
+<h2>CRS210 Hardware Notes</h2>
+<ul>
+  <li>Switch chip settings. Because the CRS210 uses a QCA-8519 switch chip, all of your VLANs, port isolation, and hardware switch rules under <pre><code>/interface ethernet switch</code></pre> are automatically included in the .rsc export.</li>
+  <li>Migrating to a newer switch. If you are exporting this configuration to move to a newer CRS3xx series switch, avoid importing the .rsc file directly without editing it first. CRS1xx/2xx switches handle VLANs in the Switch menu, whereas CRS3xx switches use Bridge VLAN Filtering, meaning the switch-chip commands will fail on newer hardware.</li>
+</ul>
 
 <h2>References</h2>
 <ul>
