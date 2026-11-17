@@ -25,8 +25,18 @@ You can export its complete switch and routing configuration directly to your Wi
         If SSH is enabled on your CRS210 and you already know its IP address, you can pull the configuration straight to your Windows 11 Desktop without opening WinBox:
       </p>
       <ul>
-        <li>Run the SSH command. Open Terminal (PowerShell) in Windows 11, replace 192.168.88.1 with your switch's IP address, and run:
-ssh admin@192.168.88.1 "/export" > "$HOME\Desktop\crs210-config.rsc"</li>
+        <li>Run the SSH command. Open Terminal (PowerShell) in Windows 11, replace <pre><code>192.168.88.1</code></pre> with your switch's IP address, and run:
+<pre><code>ssh admin@192.168.88.1 "/export" > "$HOME\Desktop\crs210-config.rsc"</code></pre></li>
       </ul>
   </li>
 </ol>
+
+<h2>References</h2>
+<ul>
+  <li>https://www.discomp.cz/mikrotik-cloud-router-switch-crs210-8g-2s-in_d62815.html</li>
+  <li>https://manual.mikrotik.com/hardware/crs-series/</li>
+  <li>https://help.mikrotik.com/docs/spaces/UM/pages/17498175/CRS-series</li>
+  <li>https://www.youtube.com/watch?v=k5N0F8iTX3s&t=241s</li>
+  <li>https://academy.socialwifi.com/en/hardware-and-installation/setup-faqs/how-to-export-configuration-from-a-mikrotik-device/</li>
+  <li>https://cdn.mikrotik.com/web-assets/mum/presentations/EU17/presentation_4068_1491395690.pdf</li>
+</ul>
