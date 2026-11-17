@@ -19,6 +19,7 @@ You can export its complete switch and routing configuration directly to your Wi
         <li>Run the export command. Type <pre><code>/export file=crs210-config</code></pre> and press Enter. If you are running RouterOS v7 and want passwords or secrets included in the script, use this instead <pre><code>/export show-sensitive file=crs210-config</code></pre></li>
         <li>Download to Windows 11. Click Files on the left-hand sidebar, find <pre><code>crs210-config.rsc</code></pre> and drag it directly onto your destination directory.</li>
       </ul>
+    <br><br>
     <b>Alternative: One-Line Export via Windows 11 Terminal</b>
       <p>
         If SSH is enabled on your CRS210 and you already know its IP address, you can pull the configuration straight to your Windows 11 Desktop without opening WinBox:
