@@ -6,7 +6,7 @@
     Save Changes to the Switch
       <ol>
         <li>Web UI: Make your changes and click Apply so they take effect immediately. Then click Save Config in the top menu or navigation bar to write them to non-volatile memory before rebooting or unplugging power.</li>
-        <li>Easy Smart Configuration Utility: Enter your username and password (default is admin for both), apply your settings, and check/click the Save Config option. As noted in a TP-Link Business Community thread, a user reported that saving via the Easy Smart Configuration Utility helped retain VLAN settings across power cycles when the web GUI had trouble.</li>
+        <li>Easy Smart Configuration Utility: Enter your username and password (default is <b>admin</b> for both), apply your settings, and check/click the Save Config option. As noted in a TP-Link Business Community thread, a user reported that saving via the Easy Smart Configuration Utility helped retain VLAN settings across power cycles when the web GUI had trouble.</li>
       </ol>
   </li>
   <li>
