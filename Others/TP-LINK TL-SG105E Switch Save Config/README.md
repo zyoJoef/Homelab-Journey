@@ -29,11 +29,11 @@
 
 <h2>References</h2>
 <ul>
-  <li>https://community.networking.hpe.com/discussion/network-crash-with-aruba-2530-8g-switches</li>
-  <li>https://arubanetworking.hpe.com/techdocs/AOS-Switch/16.10/Aruba%202530%20Management%20and%20Configuration%20Guide%20for%20ArubaOS-Switch%2016.10.pdf</li>
-  <li>https://marktugbo.com/2018/02/20/hp-aruba-procurve-2530-2500-default-configurations/</li>
+  <li>https://static.tp-link.com/res/down/doc/TL-SG108PE_V1_UG.pdf</li>
+  <li>https://community.tp-link.com/en/business/forum/topic/103526</li>
+  <li>https://community.tp-link.com/en/business/forum/topic/96183</li>
   <li>https://www.youtube.com/watch?v=7g7JyPaSaLg&t=701s</li>
-  <li>https://support.hpe.com/hpesc/public/docDisplay?docId=c04432839&docLocale=en_US</li>
-  <li>https://www.youtube.com/watch?v=dBaqir3uXzk&themeRefresh=1</li>
+  <li>https://www.youtube.com/watch?v=EIfBBTGfEZQ&t=201s</li>
+  <li>https://www.tp-link.com/ph/support/download/tl-sg105e/</li>
 </ul>
 
