@@ -29,5 +29,5 @@
   <li>https://marktugbo.com/2018/02/20/hp-aruba-procurve-2530-2500-default-configurations/</li>
   <li>https://www.youtube.com/watch?v=7g7JyPaSaLg&t=701s</li>
   <li>https://support.hpe.com/hpesc/public/docDisplay?docId=c04432839&docLocale=en_US</li>
-  <li></li>
+  <li>https://www.youtube.com/watch?v=dBaqir3uXzk&themeRefresh=1</li>
 </ul>
