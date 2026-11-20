@@ -1,42 +1,35 @@
 # Can't SSH via CMD
-The MikroTik CRS210-8G-2S+IN runs RouterOS exclusively (unlike CRS3xx models, it does not dual-boot into SwOS). 
-You can export its complete switch and routing configuration directly to your Windows 11 PC using WinBox or Windows Terminal.
+Unable to negotiate with (ip address) port 22: no matching MAC found. Their offer: hmac-sha1,hmac-md5
+
+To connect immediately, add the <pre><code>-m hmac-sha1</code></pre> flag to your command: <pre><code>ssh -m hmac-sha1 admin@ip address</code></pre>
+This error happens because your MikroTik is running an older RouterOS version that only supports legacy hashing algorithms <pre><code>(hmac-sha1)</code></pre> which modern Windows OpenSSH rejects by default for security reasons.
 
 <h2>Steps</h2>
 <ol>
   <li>
-    <b>Connect from Windows 11</b>
+    <b>Option 1: One-Time Connection (Quickest)</b>
       <ul>
-        <li>Plug in your Ethernet cable. Connect your Windows 11 PC to any of the eight Gigabit Ethernet ports (ether1 through ether8) on the CRS210.</li>
-        <li>Launch WinBox. Download and open WinBox on Windows 11.</li>
-        <li>Discover the switch. Click the Neighbors tab in WinBox to locate your CRS210 by its MAC address or IP address (default is 192.168.88.1 with username admin and a blank password). Click on the device and hit Connect.</li>
+        <li>Run the following in Command Prompt: <pre><code>ssh -m hmac-sha1 admin@ip address</code></pre></li>
       </ul>
     <br><br>
   <li>
-    <b>Step 2: Export the Configuration</b>
+    <b>Option 2: Fix It Permanently on the MikroTik (Recommended)</b>
+      <p>Once you are logged in, enable strong-crypto on the switch so it supports modern SHA-256 encryption and no longer requires the extra flag:</p>
       <ul>
-        <li>Open the terminal. Click New Terminal on the left-hand sidebar.</li>
-        <li>Run the export command. Type <pre><code>/export file=crs210-config</code></pre> and press Enter. If you are running RouterOS v7 and want passwords or secrets included in the script, use this instead <pre><code>/export show-sensitive file=crs210-config</code></pre></li>
-        <li>Download to Windows 11. Click Files on the left-hand sidebar, find <pre><code>crs210-config.rsc</code></pre> and drag it directly onto your destination directory.</li>
+        <li><pre><code>/ip ssh set strong-crypto=yes</code></pre></li>
       </ul>
+      <p>Note: If your RouterOS version is very old, strong-crypto=yes might not be available. In that case, updating RouterOS via <b>System > Packages > Check For Updates</b> will add modern SSH algorithm support.</p>
     <br><br>
   <li>
-    <b>Alternative: One-Line Export via Windows 11 Terminal</b>
-      <p>
-        If SSH is enabled on your CRS210 and you already know its IP address, you can pull the configuration straight to your Windows 11 Desktop without opening WinBox:
-      </p>
-      <ul>
-        <li>Run the SSH command. Open Terminal (PowerShell) in Windows 11, replace <pre><code>192.168.88.1</code></pre> with your switch's IP address, and run:
-<pre><code>ssh admin@192.168.88.1 "/export" > "$HOME\Desktop\crs210-config.rsc"</code></pre></li>
-      </ul>
+    <b>Option 3: Save the Exception in Windows</b>
+      <p>If you cannot update the MikroTik and don't want to type -m hmac-sha1 every time, add an exception to your Windows SSH config file:</p>
+      <ol>
+        <li>Open Notepad and open (or create) C:\Users\<YourUsername>\.ssh\config (with no file extension).</li>
+        <li>Add these lines and save: <pre><code>Host 192.168.100.2 
+MACs +hmac-sha1</code></pre></li>
+      </ol>
   </li>
 </ol>
-
-<h2>CRS210 Hardware Notes</h2>
-<ul>
-  <li>Switch chip settings. Because the CRS210 uses a QCA-8519 switch chip, all of your VLANs, port isolation, and hardware switch rules under <pre><code>/interface ethernet switch</code></pre> are automatically included in the .rsc export.</li>
-  <li>Migrating to a newer switch. If you are exporting this configuration to move to a newer CRS3xx series switch, avoid importing the .rsc file directly without editing it first. CRS1xx/2xx switches handle VLANs in the Switch menu, whereas CRS3xx switches use Bridge VLAN Filtering, meaning the switch-chip commands will fail on newer hardware.</li>
-</ul>
 
 <h2>References</h2>
 <ul>
