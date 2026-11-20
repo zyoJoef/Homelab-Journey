@@ -30,13 +30,3 @@ MACs +hmac-sha1</code></pre></li>
       </ol>
   </li>
 </ol>
-
-<h2>References</h2>
-<ul>
-  <li>https://www.discomp.cz/mikrotik-cloud-router-switch-crs210-8g-2s-in_d62815.html</li>
-  <li>https://manual.mikrotik.com/hardware/crs-series/</li>
-  <li>https://help.mikrotik.com/docs/spaces/UM/pages/17498175/CRS-series</li>
-  <li>https://www.youtube.com/watch?v=k5N0F8iTX3s&t=241s</li>
-  <li>https://academy.socialwifi.com/en/hardware-and-installation/setup-faqs/how-to-export-configuration-from-a-mikrotik-device/</li>
-  <li>https://cdn.mikrotik.com/web-assets/mum/presentations/EU17/presentation_4068_1491395690.pdf</li>
-</ul>
