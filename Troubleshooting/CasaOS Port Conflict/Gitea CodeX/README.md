@@ -30,7 +30,6 @@ services:
     </code></pre>  
   </li>
   <li>Then apply the change by running docker compose up -d in that directory.</li>
-  <li>Once finish, viola! No more conflict!</li>
 </ul>
 
 <h2>References</h2>
