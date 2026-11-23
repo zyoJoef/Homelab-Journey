@@ -13,7 +13,7 @@
 
 <h2>How to resolve Docker Port Conflict?</h2>
 <p>
-  To solve a Docker port conflict, I recommend changing the host port mapping so your container binds to a different, available port on your machine without disrupting whatever else is currently running.
+  To solve a Docker port conflict is to change the host port mapping so your container binds to a different, available port on your machine without disrupting whatever else is currently running.
 </p>
 
 <h2>How to Change the Port in CasaOS</h2>
