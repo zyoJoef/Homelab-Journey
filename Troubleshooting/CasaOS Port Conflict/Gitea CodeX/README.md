@@ -34,13 +34,11 @@ services:
 
 <h2>References</h2>
 <ul>
-  <li>https://pi-hole.net/</li>
-  <li>https://www.reddit.com/r/pihole/comments/1dobl9v/so_what_exactly_is_the_point_of_a_pihole_i/</li>
-  <li>https://medium.com/@light.pen8923/pi-hole-what-is-it-and-why-you-might-want-to-use-it-5e76feb8efdc</li>
-  <li>https://privacyinternational.org/guide-step/4341/raspberry-pi-setup-and-run-pi-hole</li>
-  <li>https://github.com/coder/code-server</li>
-  <li>https://coder.com/blog/exploring-code-server-and-coder-unleashing-the-power-of-web-based-development-en</li>
-  <li>https://marketplace.digitalocean.com/apps/vs-code-server</li>
-  <li>https://www.youtube.com/watch?v=_jV2n_fbRxU</li>
-  <li>https://www.reddit.com/r/CasaOS/comments/1k2yqni/casaos_pihole_cant_get_past_the_password/</li>
+  <li>https://github.com/knadh/listmonk/issues/1573</li>
+  <li>https://github.com/Mailu/Mailu/issues/2521)</li>
+  <li>https://forums.docker.com/t/port-conflict-between-the-local-application-and-the-container/135788</li>
+  <li>https://stackoverflow.com/questions/48281970/how-do-i-avoid-port-collision-when-using-docker</li>
+  <li>https://oneuptime.com/blog/post/2026-01-16-docker-port-conflicts/view</li>
+  <li>https://helpcenter.online.usc.edu/s/article/Docker-Port-Binding-Conflict-for-Port-number</li>
+  <li>https://www.youtube.com/watch?v=X63Wt1WSVbE&t=1s</li>
 </ul>
