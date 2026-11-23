@@ -26,6 +26,7 @@
   <li>Code Server</li>
   <li>ConvertX</li>
   <li>Gitea</li>
+  <li>KeePassXC</li>
   <li>Pi-hole</li>
   <li>Portainer</li>
   <li>Tailscale</li>
