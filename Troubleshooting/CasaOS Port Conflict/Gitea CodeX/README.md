@@ -1,5 +1,4 @@
 # Gitea CodeX Port Conflict
-
 <p> 
   Because both Gitea and BigBear ConvertX default to port 3000 on CasaOS, they cannot run simultaneously on the same host port. 
   Since Gitea is already established and running on 3000, the cleanest approach is to move ConvertX to an unused port like 3001.
