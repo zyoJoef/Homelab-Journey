@@ -1,8 +1,16 @@
-# Gitea CodeX Port Conflict
+# Gitea ConvertX Port Conflict
 <p> 
   Because both Gitea and BigBear ConvertX default to port 3000 on CasaOS, they cannot run simultaneously on the same host port. 
   Since Gitea is already established and running on 3000, the cleanest approach is to move ConvertX to an unused port like 3001.
 </p>
+
+<h2>What is Gitea?</h2>
+<p>
+  Gitea is a lightweight, open-source Git hosting and DevOps platform designed for self-hosting and team collaboration. Built in Go, it runs as a single binary with minimal server requirements compared to heavier alternatives like GitLab.
+</p>
+
+<h2>What is ConvertX?</h2>
+<p>ConvertX most commonly refers to an open-source, self-hosted web application for converting files locally across more than 1,000 formats, though the name is also used by a few unrelated software tools.</p>
 
 <h2>Why do Docker port conflict happen?</h2>
 <p>
@@ -11,9 +19,7 @@
 </p>
 
 <h2>How to resolve Docker port conflict?</h2>
-<p>
-  To solve a Docker port conflict is to change the host port mapping so your container binds to a different, available port on your machine without disrupting whatever else is currently running.
-</p>
+<p>To solve a Docker port conflict is to change the host port mapping so your container binds to a different, available port on your machine without disrupting whatever else is currently running.</p>
 
 <h2>How to Change the Port in CasaOS</h2>
 <ul>
@@ -44,6 +50,12 @@ services:
 
 <h2>References</h2>
 <ul>
+  <li>https://about.gitea.com/</li>
+  <li>https://www.xda-developers.com/gitea-more-than-self-hosted-github-alternative/</li>
+  <li>https://www.youtube.com/watch?v=Kg0ct2lBUVg</li>
+  <li>https://www.reddit.com/r/DigitalEscapeTools/comments/1qzcsvs/convertx_selfhosted_file_converter/</li>
+  <li>https://github.com/C4illin/ConvertX</li>
+  <li>https://selfhostedworld.com/software/convertx</li>
   <li>https://github.com/knadh/listmonk/issues/1573</li>
   <li>https://github.com/Mailu/Mailu/issues/2521</li>
   <li>https://forums.docker.com/t/port-conflict-between-the-local-application-and-the-container/135788</li>
