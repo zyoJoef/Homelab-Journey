@@ -35,7 +35,7 @@ services:
 <h2>References</h2>
 <ul>
   <li>https://github.com/knadh/listmonk/issues/1573</li>
-  <li>https://github.com/Mailu/Mailu/issues/2521)</li>
+  <li>https://github.com/Mailu/Mailu/issues/2521</li>
   <li>https://forums.docker.com/t/port-conflict-between-the-local-application-and-the-container/135788</li>
   <li>https://stackoverflow.com/questions/48281970/how-do-i-avoid-port-collision-when-using-docker</li>
   <li>https://oneuptime.com/blog/post/2026-01-16-docker-port-conflicts/view</li>
