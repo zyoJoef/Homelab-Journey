@@ -5,13 +5,13 @@
   Since Gitea is already established and running on 3000, the cleanest approach is to move ConvertX to an unused port like 3001.
 </p>
 
-<h2>Why do Docker Port Conflict happen?</h2>
+<h2>Why do Docker port conflict happen?</h2>
 <p>
   A Docker port conflict occurs when you try to bind a container to a host port that is already occupied by another container or a native process running on your host machine. 
   This results in errors like port is already allocated or Bind for 0.0.0.0:XXXX failed: port is already taken.
 </p>
 
-<h2>How to resolve Docker Port Conflict?</h2>
+<h2>How to resolve Docker port conflict?</h2>
 <p>
   To solve a Docker port conflict is to change the host port mapping so your container binds to a different, available port on your machine without disrupting whatever else is currently running.
 </p>
