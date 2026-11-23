@@ -1,4 +1,4 @@
-# CasaOS Failed To Load Apps 
+# Failed To Load Apps 
 Directly quoting the answer from Github User <b>Fauster</b> on the thread <b>[Feedback]Can't get apps to load or update #2387</b>
 
 Not so painful way to downgrade on Debian linux:
