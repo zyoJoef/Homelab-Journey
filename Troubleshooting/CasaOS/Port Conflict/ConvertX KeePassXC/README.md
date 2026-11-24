@@ -1,7 +1,7 @@
 # ConvertX KeePassXC Port Conflict Documentation
-The Web Ul is currently set to port 3003, which connects to the container's HTTP port (3000) instead of the required HTTPS port (3001).
+The Web Ul is currently set to port <code>3003</code>, which connects to the container's HTTP port (<code>3000</code>) instead of the required HTTPS port (<code>3001</code>).
 
-Even though you changed the prefix to https://, sending HTTPS traffic to container port 3000 causes a protocol mismatch or triggers the secure connection block. Because host port 3001 is already mapped directly to container port 3001, you only need to change the Web Ul port number.
+Even though you changed the prefix to <code>https://</code>, sending HTTPS traffic to container port <code>3000</code> causes a protocol mismatch or triggers the secure connection block. Because host port <code>3001</code> is already mapped directly to container port <code>3001</code>, you only need to change the Web Ul port number.
 
 <h2>How to Fix It</h2>
 <ul>
@@ -14,13 +14,13 @@ Even though you changed the prefix to https://, sending HTTPS traffic to contain
 </ul>
 
 <p>
-    My current configuration has two issues: ConvertX and KeePassXC are fighting over port 3001, and KeePassXC has two           different host ports mapped to the exact same 3002 port
+    My current configuration has two issues: ConvertX and KeePassXC are fighting over port <code>3001</code>, and KeePassXC has two different host ports mapped to the exact same <code>3002</code> port
 </p>
 
-<h2>What Is Wrong in Your Setup</h2>
+<h2>What Is Wrong in The Setup</h2>
 <ul>
-  <li>Host Port 3007 Collision (KeePassXC): You mapped both container port (HTTP) and container port 3881 (HTTPS) to Host 3002. Docker will reject this because two container ports cannot share one host port.</li>
-  <li>Web UI Port Mismatch (KeePassXC): Your KeePassXC Web Ul is still pointing to 3801, which currently belongs to ConvertX (server's ip address:3001).</li>
+  <li><strong>Host Port <code>3007</code> Collision (KeePassXC):</strong> Mapped both container port <code>3000</code> (HTTP) and container port <code>3001</code> (HTTPS) to Host <code>3002</code>. Docker will reject this because two container ports cannot share one host port.</li>
+  <li><strong>Web UI Port Mismatch (KeePassXC):</strong> KeePassXC Web Ul is still pointing to <code>3801</code>, which currently belongs to ConvertX (<code>server's ip address:3001</code>).</li>
 </ul>
 
 <h2>Cleanest Working Configuration</h2>
@@ -38,21 +38,21 @@ Even though you changed the prefix to https://, sending HTTPS traffic to contain
     <tbody>
       <tr>
         <td><strong>ConvertX</strong> <em>(Keep as-is)</em></td>
-        <td><code>http://development-server.local</code></td>
+        <td><code>server's ip address</code></td>
         <td><code>3001</code></td>
         <td><code>3000</code></td>
         <td>TCP</td>
       </tr>
       <tr>
-        <td><strong>KeePassXC (HTTP)</strong> <em>(Used only for reverse proxy)</em></td>
-        <td></td>
+        <td><strong>KeePassXC (HTTP)</strong></td>
+        <td><em>(Used only for reverse proxy)</em></td>
         <td><code>3002</code></td>
         <td><code>3000</code></td>
         <td>TCP</td>
       </tr>
       <tr>
         <td><strong>KeePassXC (HTTPS)</strong></td>
-        <td><code>https://development-server.local</code></td>
+        <td><code>server's ip address</code></td>
         <td><code>3003</code></td>
         <td><code>3001</code></td>
         <td>TCP</td>
@@ -69,6 +69,27 @@ Even though you changed the prefix to https://, sending HTTPS traffic to contain
         <li>Row 1: Host <code>3002</code> &rarr; Container <code>3000</code> (TCP)</li>
         <li>Row 2: Host <code>3003</code> &rarr; Container <code>3001</code> (TCP)</li>
       </ul>
+  </li>
+  <li>Click <strong>Save</strong>.</li>
+</ol>
+
+<p>
+    KeePassXC won't open because <strong>its Web UI field is still set to port <code>3001</code> instead of <code>3003</code></strong>.
+</p>
+
+<p>
+    Your Network port mappings (<code>3003 -> 3000</code> and <code>3001 -> 3001</code>) are now completely right, so CasaOS is just sending your browser to the old <code>3001</code> address (which is running ConvertX over HTTP, causing an SSL/protocol error when KeePassXC tries to open it with <code>https://</code>).
+</p>
+
+<h2>Fix for KeepassXC won't open</h2>
+<ol>
+  <li>Open <strong>KeePassXC Settings</strong> (<code>⋮ -> Settings</code>).</li>
+  <li>Look at the very top section labeled <strong>Web UI</strong>:
+    <ul>
+      <li>Protocol: <code>https://</code></li>
+      <li>Domain/IP: <code>server's ip address</code></li>
+      <li>Port: Change <code>3001</code> to <code>3003</code></li>
+    </ul>
   </li>
   <li>Click <strong>Save</strong>.</li>
 </ol>
