@@ -6,11 +6,11 @@ Even though you changed the prefix to <code>https://</code>, sending HTTPS traff
 <h2>How to Fix It</h2>
 <ul>
   <li>In your CasaOS KeePassXC Settings, go back to the Web Ul section at the top.</li>
-  <li>Keep the dropdown set to https:// and the domain as the server's ip address</li>
-  <li>Change the port field from 3003 to 3001.</li>
+  <li>Keep the dropdown set to <code>https://</code> and the domain as the <code>server's ip address</code></li>
+  <li>Change the port field from <code>3003</code> to <code>3001</code>.</li>
   <li>Click Save at the bottom of the settings panel.</li>
-  <li>Click the KeePassXC icon on your dashboard-it will now open the server's ip address.</li>
-  <li>When your browser shows a security/certificate warning, click Advanced > Proceed to server's ip address (unsafe) to open KeePassXC.</li>
+  <li>Click the KeePassXC icon on your dashboard-it will now open the <code>server's ip address</code>.</li>
+  <li>When your browser shows a security/certificate warning, click Advanced > Proceed to <code>server's ip address</code> (unsafe) to open KeePassXC.</li>
 </ul>
 
 <p>
