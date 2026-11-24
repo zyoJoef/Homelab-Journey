@@ -73,16 +73,16 @@ Even though you changed the prefix to <code>https://</code>, sending HTTPS traff
   <li>Click <strong>Save</strong>.</li>
 </ol>
 
+<h2>Fix for KeepassXC won't open</h2>
 <p>
     KeePassXC won't open because <strong>its Web UI field is still set to port <code>3001</code> instead of <code>3003</code></strong>.
 </p>
-
 <p>
     Your Network port mappings (<code>3003 -> 3000</code> and <code>3001 -> 3001</code>) are now completely right, so CasaOS is just sending your browser to the old <code>3001</code> address (which is running ConvertX over HTTP, causing an SSL/protocol error when KeePassXC tries to open it with <code>https://</code>).
 </p>
 
-<h2>Fix for KeepassXC won't open</h2>
 <ol>
+  <p>Steps:</p>
   <li>Open <strong>KeePassXC Settings</strong> (<code>⋮ -> Settings</code>).</li>
   <li>Look at the very top section labeled <strong>Web UI</strong>:
     <ul>
